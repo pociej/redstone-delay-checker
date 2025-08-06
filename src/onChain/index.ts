@@ -2,7 +2,7 @@
 
 import { createPublicClient, http, parseAbiItem } from "viem";
 import { mainnet } from "viem/chains";
-import { sevenDaysAgo } from "../dates";
+import { from } from "../dates";
 import { logger } from "../logger";
 import cliProgress from "cli-progress";
 import colors from "ansi-colors";
@@ -85,7 +85,7 @@ async function getLastWeekDataInChunks() {
     let { number: fromBlockNumber } = await getFromBlock(
       latestBlockNumber,
       BLOCKS_PER_WEEK,
-      sevenDaysAgo.toDate().getTime()
+      from.toDate().getTime()
     );
     logger.info(`From block: ${fromBlockNumber}`);
     logger.info(`To block: ${latestBlockNumber}`);

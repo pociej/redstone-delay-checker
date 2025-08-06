@@ -22,6 +22,13 @@ const argv = await yargs(hideBin(process.argv))
     type: "number",
     default: 0,
   })
+  .option("start_offset", {
+    alias: "s",
+    describe: "Start offset in hours",
+    type: "number",
+    // 7 days ago
+    default: 24 * 7,
+  })
   .check((argv) => {
     if (argv.delay < 0) {
       throw new Error("Delay must be greater than 0");
@@ -33,10 +40,12 @@ const argv = await yargs(hideBin(process.argv))
   })
   .help().argv;
 
-const { datafeeds, verbose, delay } = argv;
+const { datafeeds, verbose, delay, start_offset, start_offset_unit } = argv;
 
 export const args = {
   datafeeds: datafeeds || ALL_DATA_FEEDS,
   verbose,
   delay,
+  start_offset,
+  start_offset_unit,
 };
