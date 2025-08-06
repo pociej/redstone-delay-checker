@@ -19,7 +19,11 @@
   },
   "dependencies": {
     "@types/yargs": "^17.0.33",
+    "ansi-colors": "^4.1.3",
+    "chalk": "^5.5.0",
+    "cli-progress": "^3.12.0",
     "dayjs": "^1.11.13",
+    "viem": "^2.33.2",
     "yargs": "^18.0.0"
   }
 }
