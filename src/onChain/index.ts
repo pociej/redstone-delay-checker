@@ -1,146 +1,112 @@
 #!/usr/bin/env bun
 
-import { createPublicClient, http, parseAbiItem } from "viem";
-import { mainnet } from "viem/chains";
-import { from } from "../dates";
+import { parseAbiItem } from "viem";
+import { start } from "../dates";
 import { logger } from "../logger";
-import cliProgress from "cli-progress";
-import colors from "ansi-colors";
-import { args } from "../parseArgs";
+import { CHUNK_SIZE, CHAINS } from "./constants";
+import type { Chain } from "viem";
+import { getBlockTimestamp } from "./getBlockTimestamp";
+import { getStartBlock } from "./getStartBlock";
+import { createPublicClient } from "./client";
+import { decodeDataFeedId } from "./decodeDataFeedId";
+import { indexProgress } from "./progress";
+import { estimateBlocksInOffset } from "./estimateBlocksInOffset";
+import { writeJsonToFile } from "../writeJsonToFile";
 
-const SECONDS_PER_BLOCK = 12n;
-const SECONDS_PER_OFFSET = BigInt(args.start_offset) * 60n * 60n;
-const BLOCKS_PER_OFFSET = SECONDS_PER_OFFSET / SECONDS_PER_BLOCK;
-const CHUNK_SIZE = 2000n;
-
-export type ValueUpdateDate = {
-  value: bigint;
-  blockNumber: bigint;
-  blockTimestamp: bigint;
+export type ValueUpdateData = {
+  value: number;
+  blockNumber: number;
+  blockTimestamp: number;
 };
-const CONTRACT_ADDRESS = "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C";
-
-const client = createPublicClient({
-  chain: mainnet,
-  transport: http("https://ethereum-rpc.publicnode.com"),
-});
-
-const indexProgress = new cliProgress.SingleBar(
-  {
-    format:
-      "Indexing blocks |" +
-      colors.blue("{bar}") +
-      "| {percentage}% || {value}/{total} Chunks" +
-      `(Chunk size: ${CHUNK_SIZE})`,
-    barCompleteChar: "\u2588",
-    barIncompleteChar: "\u2591",
-    hideCursor: true,
-    stream: process.stdout,
-  },
-  cliProgress.Presets.shades_classic
-);
 
 const valueUpdateEvent = parseAbiItem(
   "event ValueUpdate(uint256 value, bytes32 dataFeedId, uint256 updatedAt)"
 );
 
-const blockTimestampCache: Map<bigint, bigint> = new Map();
+async function getEventsInChunks({
+  offsetHours,
+  chain,
+}: {
+  offsetHours: number;
+  chain: Chain;
+}) {
+  const logsPerFeed: Record<string, ValueUpdateData[]> = {};
+  const estimatedBlocksInOffset = estimateBlocksInOffset(offsetHours);
+  const client = createPublicClient(chain);
+  const latestBlockNumber = await client.getBlockNumber();
 
-const getBlockTimestamp = async (blockNumber: bigint) => {
-  if (blockTimestampCache.has(blockNumber)) {
-    return blockTimestampCache.get(blockNumber)!;
-  }
-  const block = await client.getBlock({ blockNumber });
-  blockTimestampCache.set(blockNumber, block.timestamp);
-  return block.timestamp;
-};
+  let { number: startBlockNumber } = await getStartBlock({
+    latestBlockNumber,
+    estimatedBlocksInOffset,
+    timestamp: start.toDate().getTime(),
+    chain,
+  });
 
-function decodeDataFeedId(dataFeedId: string): string {
-  const hex = dataFeedId.slice(2);
-  const decoded = Buffer.from(hex, "hex").toString("utf8").replace(/\0/g, "");
-  return decoded;
-}
-
-const indexedEventsPerFeed: Record<string, number> = {};
-
-async function getFromBlock(
-  latestBlockNumber: bigint,
-  approximateBlocksCountInPeriod: bigint,
-  timestamp: number
-) {
-  let fromBlockNumber = latestBlockNumber - approximateBlocksCountInPeriod;
-  let fromBlock = await client.getBlock({ blockNumber: fromBlockNumber });
-
-  while (fromBlock.timestamp > timestamp) {
-    fromBlockNumber--;
-    fromBlock = await client.getBlock({ blockNumber: fromBlockNumber });
-  }
-
-  return fromBlock;
-}
-
-async function getLastWeekDataInChunks() {
   try {
-    const latestBlockNumber = await client.getBlockNumber();
     logger.info(`\n=== Indexing last week ValueUpdate events ===`);
-    let { number: fromBlockNumber } = await getFromBlock(
-      latestBlockNumber,
-      BLOCKS_PER_OFFSET,
-      from.toDate().getTime()
-    );
-    logger.info(`From block: ${fromBlockNumber}`);
+
+    logger.info(`From block: ${startBlockNumber}`);
     logger.info(`To block: ${latestBlockNumber}`);
     logger.info(`=============================================\n`);
-    const logsPerFeed: Record<string, ValueUpdateDate[]> = {};
+
     let toBlock;
     let chunkCount = 0;
+
     const allChunksCount = Math.ceil(
-      Number(BLOCKS_PER_OFFSET) / Number(CHUNK_SIZE)
+      Number(latestBlockNumber - startBlockNumber) / Number(CHUNK_SIZE)
     );
     indexProgress.start(Number(allChunksCount), 0);
-    while (fromBlockNumber < latestBlockNumber) {
-      toBlock = fromBlockNumber + CHUNK_SIZE;
+
+    while (startBlockNumber < latestBlockNumber) {
+      toBlock = startBlockNumber + CHUNK_SIZE;
+
       if (toBlock > latestBlockNumber) {
         toBlock = latestBlockNumber;
       }
+
       chunkCount++;
+
       const logs = await client.getLogs({
-        address: CONTRACT_ADDRESS,
+        address: CHAINS[chain.name].contractAddress,
         event: valueUpdateEvent,
-        fromBlock: fromBlockNumber,
+        fromBlock: startBlockNumber,
         toBlock,
       });
 
-      let logCount = 0;
       for (const log of logs) {
-        logCount++;
-
         const dataFeedId = log.args.dataFeedId;
+
         if (dataFeedId) {
           const decodedId = decodeDataFeedId(dataFeedId);
-          const blockTimestamp = await getBlockTimestamp(log.blockNumber);
+          const blockTimestamp = await getBlockTimestamp(
+            log.blockNumber,
+            chain
+          );
 
           if (!logsPerFeed[decodedId]) {
             logsPerFeed[decodedId] = [];
           }
 
           logsPerFeed[decodedId].push({
-            value: log.args.value,
-            blockNumber: log.blockNumber,
-            blockTimestamp,
+            value: Number(log.args.value),
+            blockNumber: Number(log.blockNumber),
+            blockTimestamp: Number(blockTimestamp),
           });
+        } else {
+          logger.error(`Invalid dataFeedId: ${dataFeedId}`);
         }
       }
 
-      fromBlockNumber = toBlock + 1n;
+      startBlockNumber = toBlock + 1n;
       indexProgress.update(chunkCount);
     }
 
     indexProgress.stop();
+
     logger.info(`\n=== Completed processing ${chunkCount} chunks ===`);
     logger.info(`Total data feeds: ${Object.values(logsPerFeed).length}`);
     logger.info(`Total events: ${Object.values(logsPerFeed).flat().length}`);
-
+    await writeJsonToFile(logsPerFeed, "logsPerFeed.json");
     return logsPerFeed;
   } catch (error) {
     console.error("Error fetching data in chunks:", error);
@@ -148,9 +114,18 @@ async function getLastWeekDataInChunks() {
   }
 }
 
-export async function indexOnChainData() {
+export async function indexOnChainData({
+  offsetHours,
+  chain,
+}: {
+  offsetHours: number;
+  chain: Chain;
+}) {
   try {
-    return await getLastWeekDataInChunks();
+    return await getEventsInChunks({
+      offsetHours,
+      chain,
+    });
   } catch (error) {
     logger.error("Error:", error);
     throw error;

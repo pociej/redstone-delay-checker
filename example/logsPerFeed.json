@@ -1,0 +1,3181 @@
+{
+  "BIO": [
+    {
+      "value": 6730740,
+      "blockNumber": 23088231,
+      "blockTimestamp": 1754558195
+    },
+    {
+      "value": 6791543,
+      "blockNumber": 23088278,
+      "blockTimestamp": 1754558771
+    },
+    {
+      "value": 6860894,
+      "blockNumber": 23088300,
+      "blockTimestamp": 1754559035
+    },
+    {
+      "value": 6791589,
+      "blockNumber": 23088314,
+      "blockTimestamp": 1754559203
+    },
+    {
+      "value": 6868350,
+      "blockNumber": 23088357,
+      "blockTimestamp": 1754559719
+    },
+    {
+      "value": 6940416,
+      "blockNumber": 23088361,
+      "blockTimestamp": 1754559767
+    },
+    {
+      "value": 7012991,
+      "blockNumber": 23088392,
+      "blockTimestamp": 1754560139
+    },
+    {
+      "value": 7099210,
+      "blockNumber": 23088404,
+      "blockTimestamp": 1754560283
+    },
+    {
+      "value": 7019483,
+      "blockNumber": 23088410,
+      "blockTimestamp": 1754560355
+    },
+    {
+      "value": 7095396,
+      "blockNumber": 23088415,
+      "blockTimestamp": 1754560415
+    },
+    {
+      "value": 7020491,
+      "blockNumber": 23088435,
+      "blockTimestamp": 1754560655
+    },
+    {
+      "value": 7086996,
+      "blockNumber": 23088455,
+      "blockTimestamp": 1754560895
+    },
+    {
+      "value": 7011622,
+      "blockNumber": 23088480,
+      "blockTimestamp": 1754561195
+    },
+    {
+      "value": 6926108,
+      "blockNumber": 23088534,
+      "blockTimestamp": 1754561843
+    },
+    {
+      "value": 7000978,
+      "blockNumber": 23088573,
+      "blockTimestamp": 1754562311
+    },
+    {
+      "value": 7073384,
+      "blockNumber": 23088577,
+      "blockTimestamp": 1754562359
+    },
+    {
+      "value": 7150680,
+      "blockNumber": 23088583,
+      "blockTimestamp": 1754562431
+    },
+    {
+      "value": 7228879,
+      "blockNumber": 23088603,
+      "blockTimestamp": 1754562671
+    },
+    {
+      "value": 7310950,
+      "blockNumber": 23088620,
+      "blockTimestamp": 1754562875
+    },
+    {
+      "value": 7411017,
+      "blockNumber": 23088622,
+      "blockTimestamp": 1754562899
+    },
+    {
+      "value": 7335733,
+      "blockNumber": 23088625,
+      "blockTimestamp": 1754562935
+    },
+    {
+      "value": 7420482,
+      "blockNumber": 23088630,
+      "blockTimestamp": 1754562995
+    },
+    {
+      "value": 7511014,
+      "blockNumber": 23088639,
+      "blockTimestamp": 1754563103
+    },
+    {
+      "value": 7586318,
+      "blockNumber": 23088669,
+      "blockTimestamp": 1754563463
+    },
+    {
+      "value": 7678921,
+      "blockNumber": 23088675,
+      "blockTimestamp": 1754563535
+    },
+    {
+      "value": 7786515,
+      "blockNumber": 23088677,
+      "blockTimestamp": 1754563559
+    },
+    {
+      "value": 7869996,
+      "blockNumber": 23088681,
+      "blockTimestamp": 1754563607
+    },
+    {
+      "value": 7790785,
+      "blockNumber": 23088685,
+      "blockTimestamp": 1754563655
+    },
+    {
+      "value": 7708810,
+      "blockNumber": 23088687,
+      "blockTimestamp": 1754563679
+    },
+    {
+      "value": 7788132,
+      "blockNumber": 23088708,
+      "blockTimestamp": 1754563931
+    },
+    {
+      "value": 7879642,
+      "blockNumber": 23088720,
+      "blockTimestamp": 1754564075
+    },
+    {
+      "value": 7959614,
+      "blockNumber": 23088726,
+      "blockTimestamp": 1754564147
+    },
+    {
+      "value": 7861100,
+      "blockNumber": 23088729,
+      "blockTimestamp": 1754564183
+    },
+    {
+      "value": 7948025,
+      "blockNumber": 23088737,
+      "blockTimestamp": 1754564279
+    },
+    {
+      "value": 8099992,
+      "blockNumber": 23088750,
+      "blockTimestamp": 1754564435
+    },
+    {
+      "value": 8187866,
+      "blockNumber": 23088756,
+      "blockTimestamp": 1754564507
+    },
+    {
+      "value": 8301247,
+      "blockNumber": 23088761,
+      "blockTimestamp": 1754564567
+    },
+    {
+      "value": 8390956,
+      "blockNumber": 23088767,
+      "blockTimestamp": 1754564639
+    },
+    {
+      "value": 8298360,
+      "blockNumber": 23088772,
+      "blockTimestamp": 1754564699
+    },
+    {
+      "value": 8487936,
+      "blockNumber": 23088785,
+      "blockTimestamp": 1754564855
+    },
+    {
+      "value": 8370460,
+      "blockNumber": 23088809,
+      "blockTimestamp": 1754565155
+    },
+    {
+      "value": 8293855,
+      "blockNumber": 23088820,
+      "blockTimestamp": 1754565287
+    },
+    {
+      "value": 8203902,
+      "blockNumber": 23088826,
+      "blockTimestamp": 1754565359
+    },
+    {
+      "value": 8090930,
+      "blockNumber": 23088828,
+      "blockTimestamp": 1754565383
+    },
+    {
+      "value": 7985878,
+      "blockNumber": 23088829,
+      "blockTimestamp": 1754565395
+    },
+    {
+      "value": 8080146,
+      "blockNumber": 23088835,
+      "blockTimestamp": 1754565467
+    },
+    {
+      "value": 8173231,
+      "blockNumber": 23088839,
+      "blockTimestamp": 1754565515
+    },
+    {
+      "value": 8083470,
+      "blockNumber": 23088873,
+      "blockTimestamp": 1754565935
+    },
+    {
+      "value": 8153978,
+      "blockNumber": 23088878,
+      "blockTimestamp": 1754565995
+    },
+    {
+      "value": 8323917,
+      "blockNumber": 23088929,
+      "blockTimestamp": 1754566607
+    },
+    {
+      "value": 8484537,
+      "blockNumber": 23088930,
+      "blockTimestamp": 1754566619
+    },
+    {
+      "value": 8577018,
+      "blockNumber": 23088942,
+      "blockTimestamp": 1754566763
+    },
+    {
+      "value": 8668035,
+      "blockNumber": 23088944,
+      "blockTimestamp": 1754566787
+    },
+    {
+      "value": 8800440,
+      "blockNumber": 23088946,
+      "blockTimestamp": 1754566811
+    },
+    {
+      "value": 8890741,
+      "blockNumber": 23088953,
+      "blockTimestamp": 1754566895
+    },
+    {
+      "value": 8811973,
+      "blockNumber": 23088957,
+      "blockTimestamp": 1754566943
+    },
+    {
+      "value": 8879500,
+      "blockNumber": 23088965,
+      "blockTimestamp": 1754567039
+    },
+    {
+      "value": 9268205,
+      "blockNumber": 23088978,
+      "blockTimestamp": 1754567207
+    },
+    {
+      "value": 9106607,
+      "blockNumber": 23088986,
+      "blockTimestamp": 1754567315
+    },
+    {
+      "value": 9200472,
+      "blockNumber": 23088991,
+      "blockTimestamp": 1754567375
+    },
+    {
+      "value": 9366217,
+      "blockNumber": 23089010,
+      "blockTimestamp": 1754567603
+    },
+    {
+      "value": 8925839,
+      "blockNumber": 23089012,
+      "blockTimestamp": 1754567627
+    },
+    {
+      "value": 9039429,
+      "blockNumber": 23089014,
+      "blockTimestamp": 1754567651
+    },
+    {
+      "value": 8911336,
+      "blockNumber": 23089017,
+      "blockTimestamp": 1754567687
+    },
+    {
+      "value": 8826412,
+      "blockNumber": 23089037,
+      "blockTimestamp": 1754567927
+    },
+    {
+      "value": 8663676,
+      "blockNumber": 23089044,
+      "blockTimestamp": 1754568011
+    },
+    {
+      "value": 8762651,
+      "blockNumber": 23089045,
+      "blockTimestamp": 1754568023
+    },
+    {
+      "value": 8870479,
+      "blockNumber": 23089047,
+      "blockTimestamp": 1754568047
+    },
+    {
+      "value": 8780027,
+      "blockNumber": 23089052,
+      "blockTimestamp": 1754568107
+    },
+    {
+      "value": 8865598,
+      "blockNumber": 23089068,
+      "blockTimestamp": 1754568299
+    },
+    {
+      "value": 8750847,
+      "blockNumber": 23089076,
+      "blockTimestamp": 1754568395
+    },
+    {
+      "value": 8660779,
+      "blockNumber": 23089091,
+      "blockTimestamp": 1754568575
+    },
+    {
+      "value": 8752326,
+      "blockNumber": 23089105,
+      "blockTimestamp": 1754568743
+    },
+    {
+      "value": 8856563,
+      "blockNumber": 23089117,
+      "blockTimestamp": 1754568887
+    },
+    {
+      "value": 8950534,
+      "blockNumber": 23089124,
+      "blockTimestamp": 1754568971
+    },
+    {
+      "value": 8833633,
+      "blockNumber": 23089131,
+      "blockTimestamp": 1754569055
+    },
+    {
+      "value": 8935969,
+      "blockNumber": 23089149,
+      "blockTimestamp": 1754569271
+    },
+    {
+      "value": 8800308,
+      "blockNumber": 23089152,
+      "blockTimestamp": 1754569307
+    },
+    {
+      "value": 8699022,
+      "blockNumber": 23089181,
+      "blockTimestamp": 1754569667
+    },
+    {
+      "value": 8585000,
+      "blockNumber": 23089258,
+      "blockTimestamp": 1754570603
+    },
+    {
+      "value": 8412000,
+      "blockNumber": 23089260,
+      "blockTimestamp": 1754570627
+    },
+    {
+      "value": 8510000,
+      "blockNumber": 23089263,
+      "blockTimestamp": 1754570663
+    },
+    {
+      "value": 8628086,
+      "blockNumber": 23089276,
+      "blockTimestamp": 1754570819
+    },
+    {
+      "value": 8761928,
+      "blockNumber": 23089293,
+      "blockTimestamp": 1754571023
+    },
+    {
+      "value": 8687500,
+      "blockNumber": 23089351,
+      "blockTimestamp": 1754571743
+    },
+    {
+      "value": 8605301,
+      "blockNumber": 23089425,
+      "blockTimestamp": 1754572631
+    },
+    {
+      "value": 8540799,
+      "blockNumber": 23089488,
+      "blockTimestamp": 1754573387
+    },
+    {
+      "value": 8657193,
+      "blockNumber": 23089506,
+      "blockTimestamp": 1754573615
+    },
+    {
+      "value": 8581630,
+      "blockNumber": 23089535,
+      "blockTimestamp": 1754573963
+    },
+    {
+      "value": 8486447,
+      "blockNumber": 23089561,
+      "blockTimestamp": 1754574275
+    },
+    {
+      "value": 8572214,
+      "blockNumber": 23089601,
+      "blockTimestamp": 1754574755
+    },
+    {
+      "value": 8691470,
+      "blockNumber": 23089610,
+      "blockTimestamp": 1754574875
+    },
+    {
+      "value": 8829824,
+      "blockNumber": 23089615,
+      "blockTimestamp": 1754574935
+    },
+    {
+      "value": 8728809,
+      "blockNumber": 23089651,
+      "blockTimestamp": 1754575367
+    },
+    {
+      "value": 8661972,
+      "blockNumber": 23089663,
+      "blockTimestamp": 1754575511
+    },
+    {
+      "value": 8759858,
+      "blockNumber": 23089676,
+      "blockTimestamp": 1754575667
+    },
+    {
+      "value": 8895994,
+      "blockNumber": 23089691,
+      "blockTimestamp": 1754575859
+    },
+    {
+      "value": 8806145,
+      "blockNumber": 23089693,
+      "blockTimestamp": 1754575883
+    },
+    {
+      "value": 8901380,
+      "blockNumber": 23089697,
+      "blockTimestamp": 1754575931
+    },
+    {
+      "value": 9004580,
+      "blockNumber": 23089700,
+      "blockTimestamp": 1754575967
+    },
+    {
+      "value": 9138097,
+      "blockNumber": 23089702,
+      "blockTimestamp": 1754575991
+    },
+    {
+      "value": 9044048,
+      "blockNumber": 23089711,
+      "blockTimestamp": 1754576099
+    },
+    {
+      "value": 8935983,
+      "blockNumber": 23089718,
+      "blockTimestamp": 1754576183
+    },
+    {
+      "value": 9035084,
+      "blockNumber": 23089720,
+      "blockTimestamp": 1754576207
+    },
+    {
+      "value": 8939751,
+      "blockNumber": 23089723,
+      "blockTimestamp": 1754576243
+    },
+    {
+      "value": 8842486,
+      "blockNumber": 23089735,
+      "blockTimestamp": 1754576387
+    },
+    {
+      "value": 8947262,
+      "blockNumber": 23089811,
+      "blockTimestamp": 1754577311
+    },
+    {
+      "value": 9056449,
+      "blockNumber": 23089827,
+      "blockTimestamp": 1754577515
+    },
+    {
+      "value": 9161808,
+      "blockNumber": 23089852,
+      "blockTimestamp": 1754577815
+    },
+    {
+      "value": 9246757,
+      "blockNumber": 23089872,
+      "blockTimestamp": 1754578055
+    },
+    {
+      "value": 9406787,
+      "blockNumber": 23089873,
+      "blockTimestamp": 1754578067
+    },
+    {
+      "value": 9523643,
+      "blockNumber": 23089878,
+      "blockTimestamp": 1754578127
+    },
+    {
+      "value": 9619143,
+      "blockNumber": 23089884,
+      "blockTimestamp": 1754578199
+    },
+    {
+      "value": 9731140,
+      "blockNumber": 23089887,
+      "blockTimestamp": 1754578235
+    },
+    {
+      "value": 9840976,
+      "blockNumber": 23089906,
+      "blockTimestamp": 1754578463
+    },
+    {
+      "value": 9947528,
+      "blockNumber": 23089917,
+      "blockTimestamp": 1754578595
+    },
+    {
+      "value": 10016002,
+      "blockNumber": 23089931,
+      "blockTimestamp": 1754578763
+    },
+    {
+      "value": 10143021,
+      "blockNumber": 23089937,
+      "blockTimestamp": 1754578835
+    },
+    {
+      "value": 10486573,
+      "blockNumber": 23089938,
+      "blockTimestamp": 1754578847
+    },
+    {
+      "value": 10387235,
+      "blockNumber": 23089945,
+      "blockTimestamp": 1754578931
+    },
+    {
+      "value": 10132621,
+      "blockNumber": 23089948,
+      "blockTimestamp": 1754578967
+    },
+    {
+      "value": 10005695,
+      "blockNumber": 23089949,
+      "blockTimestamp": 1754578979
+    },
+    {
+      "value": 9841673,
+      "blockNumber": 23089957,
+      "blockTimestamp": 1754579075
+    },
+    {
+      "value": 9941536,
+      "blockNumber": 23089961,
+      "blockTimestamp": 1754579123
+    },
+    {
+      "value": 10061710,
+      "blockNumber": 23089967,
+      "blockTimestamp": 1754579195
+    },
+    {
+      "value": 9957954,
+      "blockNumber": 23089982,
+      "blockTimestamp": 1754579375
+    },
+    {
+      "value": 9811275,
+      "blockNumber": 23089988,
+      "blockTimestamp": 1754579447
+    },
+    {
+      "value": 9727636,
+      "blockNumber": 23089990,
+      "blockTimestamp": 1754579471
+    },
+    {
+      "value": 9611690,
+      "blockNumber": 23090005,
+      "blockTimestamp": 1754579651
+    },
+    {
+      "value": 9529236,
+      "blockNumber": 23090013,
+      "blockTimestamp": 1754579747
+    },
+    {
+      "value": 9340474,
+      "blockNumber": 23090016,
+      "blockTimestamp": 1754579783
+    },
+    {
+      "value": 9451201,
+      "blockNumber": 23090017,
+      "blockTimestamp": 1754579795
+    },
+    {
+      "value": 9546751,
+      "blockNumber": 23090020,
+      "blockTimestamp": 1754579831
+    },
+    {
+      "value": 9674144,
+      "blockNumber": 23090046,
+      "blockTimestamp": 1754580143
+    },
+    {
+      "value": 9575840,
+      "blockNumber": 23090076,
+      "blockTimestamp": 1754580503
+    },
+    {
+      "value": 9687953,
+      "blockNumber": 23090091,
+      "blockTimestamp": 1754580683
+    },
+    {
+      "value": 9801873,
+      "blockNumber": 23090100,
+      "blockTimestamp": 1754580791
+    },
+    {
+      "value": 9901453,
+      "blockNumber": 23090102,
+      "blockTimestamp": 1754580815
+    },
+    {
+      "value": 9789919,
+      "blockNumber": 23090123,
+      "blockTimestamp": 1754581067
+    },
+    {
+      "value": 9912477,
+      "blockNumber": 23090175,
+      "blockTimestamp": 1754581703
+    },
+    {
+      "value": 9777041,
+      "blockNumber": 23090191,
+      "blockTimestamp": 1754581895
+    },
+    {
+      "value": 9676789,
+      "blockNumber": 23090196,
+      "blockTimestamp": 1754581955
+    },
+    {
+      "value": 9697486,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 9812551,
+      "blockNumber": 23090236,
+      "blockTimestamp": 1754582435
+    },
+    {
+      "value": 9486698,
+      "blockNumber": 23090241,
+      "blockTimestamp": 1754582495
+    },
+    {
+      "value": 9621778,
+      "blockNumber": 23090243,
+      "blockTimestamp": 1754582519
+    },
+    {
+      "value": 9758939,
+      "blockNumber": 23090245,
+      "blockTimestamp": 1754582543
+    },
+    {
+      "value": 9637240,
+      "blockNumber": 23090255,
+      "blockTimestamp": 1754582663
+    },
+    {
+      "value": 9535525,
+      "blockNumber": 23090271,
+      "blockTimestamp": 1754582855
+    },
+    {
+      "value": 9656893,
+      "blockNumber": 23090317,
+      "blockTimestamp": 1754583407
+    },
+    {
+      "value": 9779972,
+      "blockNumber": 23090321,
+      "blockTimestamp": 1754583455
+    },
+    {
+      "value": 9893781,
+      "blockNumber": 23090337,
+      "blockTimestamp": 1754583647
+    },
+    {
+      "value": 9817647,
+      "blockNumber": 23090346,
+      "blockTimestamp": 1754583755
+    },
+    {
+      "value": 9713908,
+      "blockNumber": 23090359,
+      "blockTimestamp": 1754583911
+    },
+    {
+      "value": 9821786,
+      "blockNumber": 23090368,
+      "blockTimestamp": 1754584019
+    },
+    {
+      "value": 10035363,
+      "blockNumber": 23090431,
+      "blockTimestamp": 1754584775
+    },
+    {
+      "value": 10230390,
+      "blockNumber": 23090447,
+      "blockTimestamp": 1754584967
+    },
+    {
+      "value": 10124923,
+      "blockNumber": 23090453,
+      "blockTimestamp": 1754585039
+    },
+    {
+      "value": 10001353,
+      "blockNumber": 23090458,
+      "blockTimestamp": 1754585099
+    },
+    {
+      "value": 9877567,
+      "blockNumber": 23090467,
+      "blockTimestamp": 1754585207
+    },
+    {
+      "value": 9997699,
+      "blockNumber": 23090475,
+      "blockTimestamp": 1754585303
+    },
+    {
+      "value": 10082722,
+      "blockNumber": 23090478,
+      "blockTimestamp": 1754585339
+    },
+    {
+      "value": 10197243,
+      "blockNumber": 23090482,
+      "blockTimestamp": 1754585387
+    },
+    {
+      "value": 10370281,
+      "blockNumber": 23090493,
+      "blockTimestamp": 1754585519
+    },
+    {
+      "value": 10244844,
+      "blockNumber": 23090536,
+      "blockTimestamp": 1754586035
+    },
+    {
+      "value": 10142563,
+      "blockNumber": 23090545,
+      "blockTimestamp": 1754586143
+    },
+    {
+      "value": 10028352,
+      "blockNumber": 23090546,
+      "blockTimestamp": 1754586155
+    },
+    {
+      "value": 9887383,
+      "blockNumber": 23090557,
+      "blockTimestamp": 1754586287
+    },
+    {
+      "value": 9990503,
+      "blockNumber": 23090566,
+      "blockTimestamp": 1754586395
+    },
+    {
+      "value": 9887064,
+      "blockNumber": 23090601,
+      "blockTimestamp": 1754586815
+    },
+    {
+      "value": 10002650,
+      "blockNumber": 23090605,
+      "blockTimestamp": 1754586863
+    },
+    {
+      "value": 9892135,
+      "blockNumber": 23090620,
+      "blockTimestamp": 1754587043
+    },
+    {
+      "value": 9776494,
+      "blockNumber": 23090626,
+      "blockTimestamp": 1754587115
+    },
+    {
+      "value": 9883139,
+      "blockNumber": 23090633,
+      "blockTimestamp": 1754587199
+    },
+    {
+      "value": 9794762,
+      "blockNumber": 23090668,
+      "blockTimestamp": 1754587619
+    },
+    {
+      "value": 9691163,
+      "blockNumber": 23090734,
+      "blockTimestamp": 1754588411
+    },
+    {
+      "value": 9587154,
+      "blockNumber": 23090743,
+      "blockTimestamp": 1754588519
+    },
+    {
+      "value": 9704334,
+      "blockNumber": 23090760,
+      "blockTimestamp": 1754588723
+    },
+    {
+      "value": 9593064,
+      "blockNumber": 23090767,
+      "blockTimestamp": 1754588807
+    },
+    {
+      "value": 9470231,
+      "blockNumber": 23090795,
+      "blockTimestamp": 1754589155
+    },
+    {
+      "value": 9336214,
+      "blockNumber": 23090796,
+      "blockTimestamp": 1754589167
+    },
+    {
+      "value": 9432226,
+      "blockNumber": 23090803,
+      "blockTimestamp": 1754589251
+    },
+    {
+      "value": 9534049,
+      "blockNumber": 23090855,
+      "blockTimestamp": 1754589875
+    },
+    {
+      "value": 9632739,
+      "blockNumber": 23090922,
+      "blockTimestamp": 1754590691
+    },
+    {
+      "value": 9531278,
+      "blockNumber": 23090949,
+      "blockTimestamp": 1754591015
+    },
+    {
+      "value": 9600912,
+      "blockNumber": 23090964,
+      "blockTimestamp": 1754591195
+    },
+    {
+      "value": 9501469,
+      "blockNumber": 23090971,
+      "blockTimestamp": 1754591279
+    },
+    {
+      "value": 9591097,
+      "blockNumber": 23090989,
+      "blockTimestamp": 1754591495
+    },
+    {
+      "value": 9450870,
+      "blockNumber": 23091032,
+      "blockTimestamp": 1754592023
+    },
+    {
+      "value": 9356123,
+      "blockNumber": 23091059,
+      "blockTimestamp": 1754592347
+    },
+    {
+      "value": 9221106,
+      "blockNumber": 23091084,
+      "blockTimestamp": 1754592659
+    },
+    {
+      "value": 9067179,
+      "blockNumber": 23091087,
+      "blockTimestamp": 1754592695
+    },
+    {
+      "value": 8976425,
+      "blockNumber": 23091093,
+      "blockTimestamp": 1754592767
+    },
+    {
+      "value": 9094137,
+      "blockNumber": 23091115,
+      "blockTimestamp": 1754593043
+    },
+    {
+      "value": 9186561,
+      "blockNumber": 23091158,
+      "blockTimestamp": 1754593571
+    },
+    {
+      "value": 9087954,
+      "blockNumber": 23091223,
+      "blockTimestamp": 1754594351
+    },
+    {
+      "value": 9184555,
+      "blockNumber": 23091238,
+      "blockTimestamp": 1754594543
+    },
+    {
+      "value": 9300102,
+      "blockNumber": 23091288,
+      "blockTimestamp": 1754595143
+    },
+    {
+      "value": 9430603,
+      "blockNumber": 23091309,
+      "blockTimestamp": 1754595395
+    },
+    {
+      "value": 9529810,
+      "blockNumber": 23091315,
+      "blockTimestamp": 1754595467
+    },
+    {
+      "value": 9447889,
+      "blockNumber": 23091348,
+      "blockTimestamp": 1754595863
+    },
+    {
+      "value": 9350258,
+      "blockNumber": 23091407,
+      "blockTimestamp": 1754596583
+    },
+    {
+      "value": 9242772,
+      "blockNumber": 23091453,
+      "blockTimestamp": 1754597135
+    },
+    {
+      "value": 9165932,
+      "blockNumber": 23091502,
+      "blockTimestamp": 1754597723
+    },
+    {
+      "value": 9071527,
+      "blockNumber": 23091632,
+      "blockTimestamp": 1754599295
+    },
+    {
+      "value": 9004500,
+      "blockNumber": 23091683,
+      "blockTimestamp": 1754599919
+    },
+    {
+      "value": 9091819,
+      "blockNumber": 23091719,
+      "blockTimestamp": 1754600351
+    },
+    {
+      "value": 9186107,
+      "blockNumber": 23091749,
+      "blockTimestamp": 1754600711
+    },
+    {
+      "value": 9290399,
+      "blockNumber": 23091753,
+      "blockTimestamp": 1754600759
+    },
+    {
+      "value": 9224151,
+      "blockNumber": 23091758,
+      "blockTimestamp": 1754600819
+    },
+    {
+      "value": 9324497,
+      "blockNumber": 23091773,
+      "blockTimestamp": 1754600999
+    },
+    {
+      "value": 9214832,
+      "blockNumber": 23091801,
+      "blockTimestamp": 1754601335
+    },
+    {
+      "value": 9113914,
+      "blockNumber": 23091819,
+      "blockTimestamp": 1754601575
+    }
+  ],
+  "XVS": [
+    {
+      "value": 595065450,
+      "blockNumber": 23088231,
+      "blockTimestamp": 1754558195
+    },
+    {
+      "value": 601078130,
+      "blockNumber": 23088471,
+      "blockTimestamp": 1754561087
+    },
+    {
+      "value": 607091050,
+      "blockNumber": 23088600,
+      "blockTimestamp": 1754562635
+    },
+    {
+      "value": 612061200,
+      "blockNumber": 23088944,
+      "blockTimestamp": 1754566787
+    },
+    {
+      "value": 606184854,
+      "blockNumber": 23089799,
+      "blockTimestamp": 1754577167
+    },
+    {
+      "value": 609156186,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 604111953,
+      "blockNumber": 23090458,
+      "blockTimestamp": 1754585099
+    },
+    {
+      "value": 599161730,
+      "blockNumber": 23090473,
+      "blockTimestamp": 1754585279
+    },
+    {
+      "value": 604103773,
+      "blockNumber": 23090493,
+      "blockTimestamp": 1754585519
+    },
+    {
+      "value": 611128310,
+      "blockNumber": 23091359,
+      "blockTimestamp": 1754595995
+    },
+    {
+      "value": 616101418,
+      "blockNumber": 23091662,
+      "blockTimestamp": 1754599655
+    }
+  ],
+  "SWELL/ETH": [
+    {
+      "value": 262,
+      "blockNumber": 23088237,
+      "blockTimestamp": 1754558267
+    },
+    {
+      "value": 264,
+      "blockNumber": 23088248,
+      "blockTimestamp": 1754558399
+    },
+    {
+      "value": 266,
+      "blockNumber": 23088250,
+      "blockTimestamp": 1754558423
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088256,
+      "blockTimestamp": 1754558495
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088278,
+      "blockTimestamp": 1754558771
+    },
+    {
+      "value": 270,
+      "blockNumber": 23088287,
+      "blockTimestamp": 1754558879
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088314,
+      "blockTimestamp": 1754559203
+    },
+    {
+      "value": 267,
+      "blockNumber": 23088336,
+      "blockTimestamp": 1754559467
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088368,
+      "blockTimestamp": 1754559851
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088385,
+      "blockTimestamp": 1754560055
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088418,
+      "blockTimestamp": 1754560451
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088499,
+      "blockTimestamp": 1754561423
+    },
+    {
+      "value": 267,
+      "blockNumber": 23088515,
+      "blockTimestamp": 1754561615
+    },
+    {
+      "value": 266,
+      "blockNumber": 23088540,
+      "blockTimestamp": 1754561915
+    },
+    {
+      "value": 267,
+      "blockNumber": 23088583,
+      "blockTimestamp": 1754562431
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088611,
+      "blockTimestamp": 1754562767
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088639,
+      "blockTimestamp": 1754563103
+    },
+    {
+      "value": 267,
+      "blockNumber": 23088649,
+      "blockTimestamp": 1754563223
+    },
+    {
+      "value": 267,
+      "blockNumber": 23088651,
+      "blockTimestamp": 1754563247
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088736,
+      "blockTimestamp": 1754564267
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088744,
+      "blockTimestamp": 1754564363
+    },
+    {
+      "value": 270,
+      "blockNumber": 23088781,
+      "blockTimestamp": 1754564807
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088791,
+      "blockTimestamp": 1754564927
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088800,
+      "blockTimestamp": 1754565047
+    },
+    {
+      "value": 271,
+      "blockNumber": 23088820,
+      "blockTimestamp": 1754565287
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088855,
+      "blockTimestamp": 1754565719
+    },
+    {
+      "value": 271,
+      "blockNumber": 23088878,
+      "blockTimestamp": 1754565995
+    },
+    {
+      "value": 270,
+      "blockNumber": 23088910,
+      "blockTimestamp": 1754566379
+    },
+    {
+      "value": 269,
+      "blockNumber": 23088973,
+      "blockTimestamp": 1754567135
+    },
+    {
+      "value": 268,
+      "blockNumber": 23088996,
+      "blockTimestamp": 1754567435
+    },
+    {
+      "value": 266,
+      "blockNumber": 23089000,
+      "blockTimestamp": 1754567483
+    },
+    {
+      "value": 267,
+      "blockNumber": 23089010,
+      "blockTimestamp": 1754567603
+    },
+    {
+      "value": 268,
+      "blockNumber": 23089047,
+      "blockTimestamp": 1754568047
+    },
+    {
+      "value": 271,
+      "blockNumber": 23089061,
+      "blockTimestamp": 1754568215
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089168,
+      "blockTimestamp": 1754569511
+    },
+    {
+      "value": 270,
+      "blockNumber": 23089197,
+      "blockTimestamp": 1754569859
+    },
+    {
+      "value": 271,
+      "blockNumber": 23089210,
+      "blockTimestamp": 1754570015
+    },
+    {
+      "value": 270,
+      "blockNumber": 23089276,
+      "blockTimestamp": 1754570819
+    },
+    {
+      "value": 271,
+      "blockNumber": 23089351,
+      "blockTimestamp": 1754571743
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089352,
+      "blockTimestamp": 1754571755
+    },
+    {
+      "value": 274,
+      "blockNumber": 23089372,
+      "blockTimestamp": 1754571995
+    },
+    {
+      "value": 275,
+      "blockNumber": 23089389,
+      "blockTimestamp": 1754572199
+    },
+    {
+      "value": 274,
+      "blockNumber": 23089402,
+      "blockTimestamp": 1754572355
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089412,
+      "blockTimestamp": 1754572475
+    },
+    {
+      "value": 273,
+      "blockNumber": 23089421,
+      "blockTimestamp": 1754572583
+    },
+    {
+      "value": 274,
+      "blockNumber": 23089467,
+      "blockTimestamp": 1754573135
+    },
+    {
+      "value": 273,
+      "blockNumber": 23089488,
+      "blockTimestamp": 1754573387
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089535,
+      "blockTimestamp": 1754573963
+    },
+    {
+      "value": 270,
+      "blockNumber": 23089538,
+      "blockTimestamp": 1754573999
+    },
+    {
+      "value": 268,
+      "blockNumber": 23089632,
+      "blockTimestamp": 1754575139
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089654,
+      "blockTimestamp": 1754575403
+    },
+    {
+      "value": 274,
+      "blockNumber": 23089657,
+      "blockTimestamp": 1754575439
+    },
+    {
+      "value": 276,
+      "blockNumber": 23089663,
+      "blockTimestamp": 1754575511
+    },
+    {
+      "value": 273,
+      "blockNumber": 23089670,
+      "blockTimestamp": 1754575595
+    },
+    {
+      "value": 274,
+      "blockNumber": 23089727,
+      "blockTimestamp": 1754576291
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089799,
+      "blockTimestamp": 1754577167
+    },
+    {
+      "value": 273,
+      "blockNumber": 23089824,
+      "blockTimestamp": 1754577467
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089873,
+      "blockTimestamp": 1754578067
+    },
+    {
+      "value": 274,
+      "blockNumber": 23089880,
+      "blockTimestamp": 1754578151
+    },
+    {
+      "value": 273,
+      "blockNumber": 23089898,
+      "blockTimestamp": 1754578367
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089906,
+      "blockTimestamp": 1754578463
+    },
+    {
+      "value": 273,
+      "blockNumber": 23089937,
+      "blockTimestamp": 1754578835
+    },
+    {
+      "value": 272,
+      "blockNumber": 23089955,
+      "blockTimestamp": 1754579051
+    },
+    {
+      "value": 271,
+      "blockNumber": 23089971,
+      "blockTimestamp": 1754579243
+    },
+    {
+      "value": 270,
+      "blockNumber": 23089982,
+      "blockTimestamp": 1754579375
+    },
+    {
+      "value": 268,
+      "blockNumber": 23089990,
+      "blockTimestamp": 1754579471
+    },
+    {
+      "value": 266,
+      "blockNumber": 23090008,
+      "blockTimestamp": 1754579687
+    },
+    {
+      "value": 268,
+      "blockNumber": 23090041,
+      "blockTimestamp": 1754580083
+    },
+    {
+      "value": 269,
+      "blockNumber": 23090072,
+      "blockTimestamp": 1754580455
+    },
+    {
+      "value": 270,
+      "blockNumber": 23090139,
+      "blockTimestamp": 1754581271
+    },
+    {
+      "value": 270,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 271,
+      "blockNumber": 23090226,
+      "blockTimestamp": 1754582315
+    },
+    {
+      "value": 270,
+      "blockNumber": 23090346,
+      "blockTimestamp": 1754583755
+    },
+    {
+      "value": 269,
+      "blockNumber": 23090359,
+      "blockTimestamp": 1754583911
+    },
+    {
+      "value": 268,
+      "blockNumber": 23090473,
+      "blockTimestamp": 1754585279
+    },
+    {
+      "value": 269,
+      "blockNumber": 23090510,
+      "blockTimestamp": 1754585723
+    },
+    {
+      "value": 271,
+      "blockNumber": 23090541,
+      "blockTimestamp": 1754586095
+    },
+    {
+      "value": 273,
+      "blockNumber": 23090551,
+      "blockTimestamp": 1754586215
+    },
+    {
+      "value": 274,
+      "blockNumber": 23090601,
+      "blockTimestamp": 1754586815
+    },
+    {
+      "value": 276,
+      "blockNumber": 23090614,
+      "blockTimestamp": 1754586971
+    },
+    {
+      "value": 273,
+      "blockNumber": 23090668,
+      "blockTimestamp": 1754587619
+    },
+    {
+      "value": 275,
+      "blockNumber": 23090675,
+      "blockTimestamp": 1754587703
+    },
+    {
+      "value": 276,
+      "blockNumber": 23090767,
+      "blockTimestamp": 1754588807
+    },
+    {
+      "value": 274,
+      "blockNumber": 23090835,
+      "blockTimestamp": 1754589635
+    },
+    {
+      "value": 275,
+      "blockNumber": 23090855,
+      "blockTimestamp": 1754589875
+    },
+    {
+      "value": 276,
+      "blockNumber": 23090977,
+      "blockTimestamp": 1754591351
+    },
+    {
+      "value": 278,
+      "blockNumber": 23091053,
+      "blockTimestamp": 1754592275
+    },
+    {
+      "value": 277,
+      "blockNumber": 23091059,
+      "blockTimestamp": 1754592347
+    },
+    {
+      "value": 276,
+      "blockNumber": 23091133,
+      "blockTimestamp": 1754593259
+    },
+    {
+      "value": 278,
+      "blockNumber": 23091176,
+      "blockTimestamp": 1754593787
+    },
+    {
+      "value": 277,
+      "blockNumber": 23091191,
+      "blockTimestamp": 1754593967
+    },
+    {
+      "value": 276,
+      "blockNumber": 23091217,
+      "blockTimestamp": 1754594279
+    },
+    {
+      "value": 278,
+      "blockNumber": 23091267,
+      "blockTimestamp": 1754594891
+    },
+    {
+      "value": 279,
+      "blockNumber": 23091336,
+      "blockTimestamp": 1754595719
+    },
+    {
+      "value": 280,
+      "blockNumber": 23091403,
+      "blockTimestamp": 1754596535
+    },
+    {
+      "value": 281,
+      "blockNumber": 23091444,
+      "blockTimestamp": 1754597027
+    },
+    {
+      "value": 283,
+      "blockNumber": 23091451,
+      "blockTimestamp": 1754597111
+    },
+    {
+      "value": 281,
+      "blockNumber": 23091453,
+      "blockTimestamp": 1754597135
+    },
+    {
+      "value": 283,
+      "blockNumber": 23091478,
+      "blockTimestamp": 1754597435
+    },
+    {
+      "value": 281,
+      "blockNumber": 23091502,
+      "blockTimestamp": 1754597723
+    },
+    {
+      "value": 282,
+      "blockNumber": 23091548,
+      "blockTimestamp": 1754598275
+    },
+    {
+      "value": 283,
+      "blockNumber": 23091585,
+      "blockTimestamp": 1754598719
+    },
+    {
+      "value": 282,
+      "blockNumber": 23091683,
+      "blockTimestamp": 1754599919
+    },
+    {
+      "value": 280,
+      "blockNumber": 23091698,
+      "blockTimestamp": 1754600099
+    },
+    {
+      "value": 281,
+      "blockNumber": 23091719,
+      "blockTimestamp": 1754600351
+    },
+    {
+      "value": 282,
+      "blockNumber": 23091734,
+      "blockTimestamp": 1754600531
+    },
+    {
+      "value": 283,
+      "blockNumber": 23091742,
+      "blockTimestamp": 1754600627
+    },
+    {
+      "value": 285,
+      "blockNumber": 23091758,
+      "blockTimestamp": 1754600819
+    },
+    {
+      "value": 288,
+      "blockNumber": 23091821,
+      "blockTimestamp": 1754601599
+    }
+  ],
+  "PUFFER": [
+    {
+      "value": 22148322,
+      "blockNumber": 23088248,
+      "blockTimestamp": 1754558399
+    },
+    {
+      "value": 21956976,
+      "blockNumber": 23088385,
+      "blockTimestamp": 1754560055
+    },
+    {
+      "value": 22192885,
+      "blockNumber": 23088471,
+      "blockTimestamp": 1754561087
+    },
+    {
+      "value": 22443142,
+      "blockNumber": 23088499,
+      "blockTimestamp": 1754561423
+    },
+    {
+      "value": 22676858,
+      "blockNumber": 23088565,
+      "blockTimestamp": 1754562215
+    },
+    {
+      "value": 22915802,
+      "blockNumber": 23088744,
+      "blockTimestamp": 1754564363
+    },
+    {
+      "value": 23082539,
+      "blockNumber": 23088829,
+      "blockTimestamp": 1754565395
+    },
+    {
+      "value": 22842062,
+      "blockNumber": 23088910,
+      "blockTimestamp": 1754566379
+    },
+    {
+      "value": 22666360,
+      "blockNumber": 23089181,
+      "blockTimestamp": 1754569667
+    },
+    {
+      "value": 22491257,
+      "blockNumber": 23089691,
+      "blockTimestamp": 1754575859
+    },
+    {
+      "value": 22720183,
+      "blockNumber": 23089813,
+      "blockTimestamp": 1754577335
+    },
+    {
+      "value": 22492137,
+      "blockNumber": 23089872,
+      "blockTimestamp": 1754578055
+    },
+    {
+      "value": 22302345,
+      "blockNumber": 23089906,
+      "blockTimestamp": 1754578463
+    },
+    {
+      "value": 22513377,
+      "blockNumber": 23089937,
+      "blockTimestamp": 1754578835
+    },
+    {
+      "value": 22746309,
+      "blockNumber": 23090050,
+      "blockTimestamp": 1754580191
+    },
+    {
+      "value": 22576486,
+      "blockNumber": 23090122,
+      "blockTimestamp": 1754581055
+    },
+    {
+      "value": 22750661,
+      "blockNumber": 23090148,
+      "blockTimestamp": 1754581379
+    },
+    {
+      "value": 22657904,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 22464694,
+      "blockNumber": 23090447,
+      "blockTimestamp": 1754584967
+    },
+    {
+      "value": 22305788,
+      "blockNumber": 23090470,
+      "blockTimestamp": 1754585243
+    },
+    {
+      "value": 22483344,
+      "blockNumber": 23090551,
+      "blockTimestamp": 1754586215
+    },
+    {
+      "value": 22299676,
+      "blockNumber": 23091059,
+      "blockTimestamp": 1754592347
+    },
+    {
+      "value": 22493607,
+      "blockNumber": 23091133,
+      "blockTimestamp": 1754593259
+    },
+    {
+      "value": 22651812,
+      "blockNumber": 23091267,
+      "blockTimestamp": 1754594891
+    },
+    {
+      "value": 22817500,
+      "blockNumber": 23091355,
+      "blockTimestamp": 1754595947
+    },
+    {
+      "value": 23002781,
+      "blockNumber": 23091734,
+      "blockTimestamp": 1754600531
+    }
+  ],
+  "SPK": [
+    {
+      "value": 11234487,
+      "blockNumber": 23088314,
+      "blockTimestamp": 1754559203
+    },
+    {
+      "value": 11150115,
+      "blockNumber": 23088404,
+      "blockTimestamp": 1754560283
+    },
+    {
+      "value": 11071887,
+      "blockNumber": 23088455,
+      "blockTimestamp": 1754560895
+    },
+    {
+      "value": 11157033,
+      "blockNumber": 23088467,
+      "blockTimestamp": 1754561039
+    },
+    {
+      "value": 11242724,
+      "blockNumber": 23088515,
+      "blockTimestamp": 1754561615
+    },
+    {
+      "value": 11357522,
+      "blockNumber": 23088926,
+      "blockTimestamp": 1754566571
+    },
+    {
+      "value": 11276300,
+      "blockNumber": 23088965,
+      "blockTimestamp": 1754567039
+    },
+    {
+      "value": 11197059,
+      "blockNumber": 23088996,
+      "blockTimestamp": 1754567435
+    },
+    {
+      "value": 11300784,
+      "blockNumber": 23089045,
+      "blockTimestamp": 1754568023
+    },
+    {
+      "value": 11393840,
+      "blockNumber": 23089124,
+      "blockTimestamp": 1754568971
+    },
+    {
+      "value": 11493250,
+      "blockNumber": 23089210,
+      "blockTimestamp": 1754570015
+    },
+    {
+      "value": 11374514,
+      "blockNumber": 23089291,
+      "blockTimestamp": 1754570999
+    },
+    {
+      "value": 11490601,
+      "blockNumber": 23089425,
+      "blockTimestamp": 1754572631
+    },
+    {
+      "value": 11588638,
+      "blockNumber": 23089615,
+      "blockTimestamp": 1754574935
+    },
+    {
+      "value": 11482972,
+      "blockNumber": 23089651,
+      "blockTimestamp": 1754575367
+    },
+    {
+      "value": 11565466,
+      "blockNumber": 23089663,
+      "blockTimestamp": 1754575511
+    },
+    {
+      "value": 11654625,
+      "blockNumber": 23089735,
+      "blockTimestamp": 1754576387
+    },
+    {
+      "value": 11751135,
+      "blockNumber": 23089887,
+      "blockTimestamp": 1754578235
+    },
+    {
+      "value": 11878456,
+      "blockNumber": 23089945,
+      "blockTimestamp": 1754578931
+    },
+    {
+      "value": 11997836,
+      "blockNumber": 23090005,
+      "blockTimestamp": 1754579651
+    },
+    {
+      "value": 12129073,
+      "blockNumber": 23090013,
+      "blockTimestamp": 1754579747
+    },
+    {
+      "value": 12230226,
+      "blockNumber": 23090016,
+      "blockTimestamp": 1754579783
+    },
+    {
+      "value": 12078974,
+      "blockNumber": 23090023,
+      "blockTimestamp": 1754579867
+    },
+    {
+      "value": 11931840,
+      "blockNumber": 23090029,
+      "blockTimestamp": 1754579939
+    },
+    {
+      "value": 12069767,
+      "blockNumber": 23090037,
+      "blockTimestamp": 1754580035
+    },
+    {
+      "value": 12204499,
+      "blockNumber": 23090098,
+      "blockTimestamp": 1754580767
+    },
+    {
+      "value": 12077495,
+      "blockNumber": 23090148,
+      "blockTimestamp": 1754581379
+    },
+    {
+      "value": 11948614,
+      "blockNumber": 23090161,
+      "blockTimestamp": 1754581535
+    },
+    {
+      "value": 11828908,
+      "blockNumber": 23090177,
+      "blockTimestamp": 1754581727
+    },
+    {
+      "value": 11708708,
+      "blockNumber": 23090186,
+      "blockTimestamp": 1754581835
+    },
+    {
+      "value": 11575738,
+      "blockNumber": 23090197,
+      "blockTimestamp": 1754581967
+    },
+    {
+      "value": 11573617,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 11702364,
+      "blockNumber": 23090226,
+      "blockTimestamp": 1754582315
+    },
+    {
+      "value": 11602016,
+      "blockNumber": 23090236,
+      "blockTimestamp": 1754582435
+    },
+    {
+      "value": 11684450,
+      "blockNumber": 23090245,
+      "blockTimestamp": 1754582543
+    },
+    {
+      "value": 11769804,
+      "blockNumber": 23090321,
+      "blockTimestamp": 1754583455
+    },
+    {
+      "value": 11643906,
+      "blockNumber": 23090347,
+      "blockTimestamp": 1754583767
+    },
+    {
+      "value": 11763564,
+      "blockNumber": 23090380,
+      "blockTimestamp": 1754584163
+    },
+    {
+      "value": 11659923,
+      "blockNumber": 23090442,
+      "blockTimestamp": 1754584907
+    },
+    {
+      "value": 11563198,
+      "blockNumber": 23090453,
+      "blockTimestamp": 1754585039
+    },
+    {
+      "value": 11410371,
+      "blockNumber": 23090487,
+      "blockTimestamp": 1754585447
+    },
+    {
+      "value": 11489034,
+      "blockNumber": 23090536,
+      "blockTimestamp": 1754586035
+    },
+    {
+      "value": 11407846,
+      "blockNumber": 23090601,
+      "blockTimestamp": 1754586815
+    },
+    {
+      "value": 11319272,
+      "blockNumber": 23090922,
+      "blockTimestamp": 1754590691
+    },
+    {
+      "value": 11438202,
+      "blockNumber": 23091348,
+      "blockTimestamp": 1754595863
+    },
+    {
+      "value": 11553631,
+      "blockNumber": 23091438,
+      "blockTimestamp": 1754596955
+    },
+    {
+      "value": 11682710,
+      "blockNumber": 23091514,
+      "blockTimestamp": 1754597867
+    },
+    {
+      "value": 11565277,
+      "blockNumber": 23091555,
+      "blockTimestamp": 1754598359
+    },
+    {
+      "value": 11686674,
+      "blockNumber": 23091662,
+      "blockTimestamp": 1754599655
+    },
+    {
+      "value": 11568026,
+      "blockNumber": 23091683,
+      "blockTimestamp": 1754599919
+    },
+    {
+      "value": 11652526,
+      "blockNumber": 23091742,
+      "blockTimestamp": 1754600627
+    },
+    {
+      "value": 11734860,
+      "blockNumber": 23091753,
+      "blockTimestamp": 1754600759
+    },
+    {
+      "value": 11631013,
+      "blockNumber": 23091801,
+      "blockTimestamp": 1754601335
+    }
+  ],
+  "PROMPT": [
+    {
+      "value": 12890387,
+      "blockNumber": 23088336,
+      "blockTimestamp": 1754559467
+    },
+    {
+      "value": 12996845,
+      "blockNumber": 23088471,
+      "blockTimestamp": 1754561087
+    },
+    {
+      "value": 13090832,
+      "blockNumber": 23088530,
+      "blockTimestamp": 1754561795
+    },
+    {
+      "value": 13222115,
+      "blockNumber": 23088594,
+      "blockTimestamp": 1754562563
+    },
+    {
+      "value": 13318364,
+      "blockNumber": 23088729,
+      "blockTimestamp": 1754564183
+    },
+    {
+      "value": 13431212,
+      "blockNumber": 23088910,
+      "blockTimestamp": 1754566379
+    },
+    {
+      "value": 13537703,
+      "blockNumber": 23089384,
+      "blockTimestamp": 1754572139
+    },
+    {
+      "value": 13440874,
+      "blockNumber": 23089467,
+      "blockTimestamp": 1754573135
+    },
+    {
+      "value": 13423442,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 13323097,
+      "blockNumber": 23090255,
+      "blockTimestamp": 1754582663
+    },
+    {
+      "value": 13421869,
+      "blockNumber": 23090271,
+      "blockTimestamp": 1754582855
+    },
+    {
+      "value": 13327285,
+      "blockNumber": 23090447,
+      "blockTimestamp": 1754584967
+    },
+    {
+      "value": 13226004,
+      "blockNumber": 23090470,
+      "blockTimestamp": 1754585243
+    },
+    {
+      "value": 13343453,
+      "blockNumber": 23090510,
+      "blockTimestamp": 1754585723
+    },
+    {
+      "value": 13442285,
+      "blockNumber": 23091158,
+      "blockTimestamp": 1754593571
+    },
+    {
+      "value": 13552074,
+      "blockNumber": 23091355,
+      "blockTimestamp": 1754595947
+    },
+    {
+      "value": 13647115,
+      "blockNumber": 23091478,
+      "blockTimestamp": 1754597435
+    }
+  ],
+  "EIGEN": [
+    {
+      "value": 118707122,
+      "blockNumber": 23088361,
+      "blockTimestamp": 1754559767
+    },
+    {
+      "value": 119678377,
+      "blockNumber": 23088455,
+      "blockTimestamp": 1754560895
+    },
+    {
+      "value": 120715691,
+      "blockNumber": 23088471,
+      "blockTimestamp": 1754561087
+    },
+    {
+      "value": 121871839,
+      "blockNumber": 23088530,
+      "blockTimestamp": 1754561795
+    },
+    {
+      "value": 122892932,
+      "blockNumber": 23088611,
+      "blockTimestamp": 1754562767
+    },
+    {
+      "value": 122001220,
+      "blockNumber": 23089291,
+      "blockTimestamp": 1754570999
+    },
+    {
+      "value": 122872889,
+      "blockNumber": 23089541,
+      "blockTimestamp": 1754574035
+    },
+    {
+      "value": 121938790,
+      "blockNumber": 23089632,
+      "blockTimestamp": 1754575139
+    },
+    {
+      "value": 120995234,
+      "blockNumber": 23089711,
+      "blockTimestamp": 1754576099
+    },
+    {
+      "value": 120991022,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 120117910,
+      "blockNumber": 23090337,
+      "blockTimestamp": 1754583647
+    },
+    {
+      "value": 119130966,
+      "blockNumber": 23090467,
+      "blockTimestamp": 1754585207
+    },
+    {
+      "value": 120011216,
+      "blockNumber": 23090835,
+      "blockTimestamp": 1754589635
+    },
+    {
+      "value": 119071849,
+      "blockNumber": 23090949,
+      "blockTimestamp": 1754591015
+    },
+    {
+      "value": 119991619,
+      "blockNumber": 23091133,
+      "blockTimestamp": 1754593259
+    },
+    {
+      "value": 121211514,
+      "blockNumber": 23091355,
+      "blockTimestamp": 1754595947
+    },
+    {
+      "value": 122515619,
+      "blockNumber": 23091430,
+      "blockTimestamp": 1754596859
+    },
+    {
+      "value": 123440557,
+      "blockNumber": 23091683,
+      "blockTimestamp": 1754599919
+    }
+  ],
+  "USUAL": [
+    {
+      "value": 7080890,
+      "blockNumber": 23088368,
+      "blockTimestamp": 1754559851
+    },
+    {
+      "value": 7120409,
+      "blockNumber": 23088467,
+      "blockTimestamp": 1754561039
+    },
+    {
+      "value": 7142928,
+      "blockNumber": 23088471,
+      "blockTimestamp": 1754561087
+    },
+    {
+      "value": 7180646,
+      "blockNumber": 23088507,
+      "blockTimestamp": 1754561519
+    },
+    {
+      "value": 7217010,
+      "blockNumber": 23088530,
+      "blockTimestamp": 1754561795
+    },
+    {
+      "value": 7258089,
+      "blockNumber": 23088600,
+      "blockTimestamp": 1754562635
+    },
+    {
+      "value": 7290948,
+      "blockNumber": 23088620,
+      "blockTimestamp": 1754562875
+    },
+    {
+      "value": 7320082,
+      "blockNumber": 23088708,
+      "blockTimestamp": 1754563931
+    },
+    {
+      "value": 7370231,
+      "blockNumber": 23088718,
+      "blockTimestamp": 1754564051
+    },
+    {
+      "value": 7410844,
+      "blockNumber": 23088767,
+      "blockTimestamp": 1754564639
+    },
+    {
+      "value": 7449977,
+      "blockNumber": 23088957,
+      "blockTimestamp": 1754566943
+    },
+    {
+      "value": 7490000,
+      "blockNumber": 23088965,
+      "blockTimestamp": 1754567039
+    },
+    {
+      "value": 7560529,
+      "blockNumber": 23088980,
+      "blockTimestamp": 1754567231
+    },
+    {
+      "value": 7611260,
+      "blockNumber": 23088985,
+      "blockTimestamp": 1754567303
+    },
+    {
+      "value": 7565567,
+      "blockNumber": 23088996,
+      "blockTimestamp": 1754567435
+    },
+    {
+      "value": 7600228,
+      "blockNumber": 23089052,
+      "blockTimestamp": 1754568107
+    },
+    {
+      "value": 7560983,
+      "blockNumber": 23089061,
+      "blockTimestamp": 1754568215
+    },
+    {
+      "value": 7520649,
+      "blockNumber": 23089095,
+      "blockTimestamp": 1754568623
+    },
+    {
+      "value": 7550225,
+      "blockNumber": 23089124,
+      "blockTimestamp": 1754568971
+    },
+    {
+      "value": 7510526,
+      "blockNumber": 23089172,
+      "blockTimestamp": 1754569559
+    },
+    {
+      "value": 7470000,
+      "blockNumber": 23089195,
+      "blockTimestamp": 1754569835
+    },
+    {
+      "value": 7440000,
+      "blockNumber": 23089258,
+      "blockTimestamp": 1754570603
+    },
+    {
+      "value": 7480112,
+      "blockNumber": 23089384,
+      "blockTimestamp": 1754572139
+    },
+    {
+      "value": 7521401,
+      "blockNumber": 23089541,
+      "blockTimestamp": 1754574035
+    },
+    {
+      "value": 7483778,
+      "blockNumber": 23089555,
+      "blockTimestamp": 1754574203
+    },
+    {
+      "value": 7451117,
+      "blockNumber": 23089651,
+      "blockTimestamp": 1754575367
+    },
+    {
+      "value": 7411186,
+      "blockNumber": 23089682,
+      "blockTimestamp": 1754575739
+    },
+    {
+      "value": 7370958,
+      "blockNumber": 23089794,
+      "blockTimestamp": 1754577107
+    },
+    {
+      "value": 7348396,
+      "blockNumber": 23089872,
+      "blockTimestamp": 1754578055
+    },
+    {
+      "value": 7386625,
+      "blockNumber": 23089887,
+      "blockTimestamp": 1754578235
+    },
+    {
+      "value": 7430339,
+      "blockNumber": 23089931,
+      "blockTimestamp": 1754578763
+    },
+    {
+      "value": 7461119,
+      "blockNumber": 23089938,
+      "blockTimestamp": 1754578847
+    },
+    {
+      "value": 7430612,
+      "blockNumber": 23089955,
+      "blockTimestamp": 1754579051
+    },
+    {
+      "value": 7400865,
+      "blockNumber": 23089990,
+      "blockTimestamp": 1754579471
+    },
+    {
+      "value": 7431204,
+      "blockNumber": 23090046,
+      "blockTimestamp": 1754580143
+    },
+    {
+      "value": 7461417,
+      "blockNumber": 23090139,
+      "blockTimestamp": 1754581271
+    },
+    {
+      "value": 7441908,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 7403480,
+      "blockNumber": 23090300,
+      "blockTimestamp": 1754583203
+    },
+    {
+      "value": 7431337,
+      "blockNumber": 23090368,
+      "blockTimestamp": 1754584019
+    },
+    {
+      "value": 7390387,
+      "blockNumber": 23090442,
+      "blockTimestamp": 1754584907
+    },
+    {
+      "value": 7361398,
+      "blockNumber": 23090453,
+      "blockTimestamp": 1754585039
+    },
+    {
+      "value": 7311901,
+      "blockNumber": 23090467,
+      "blockTimestamp": 1754585207
+    },
+    {
+      "value": 7266886,
+      "blockNumber": 23090470,
+      "blockTimestamp": 1754585243
+    },
+    {
+      "value": 7231952,
+      "blockNumber": 23090473,
+      "blockTimestamp": 1754585279
+    },
+    {
+      "value": 7266962,
+      "blockNumber": 23090475,
+      "blockTimestamp": 1754585303
+    },
+    {
+      "value": 7306822,
+      "blockNumber": 23090478,
+      "blockTimestamp": 1754585339
+    },
+    {
+      "value": 7351263,
+      "blockNumber": 23090493,
+      "blockTimestamp": 1754585519
+    },
+    {
+      "value": 7381218,
+      "blockNumber": 23090605,
+      "blockTimestamp": 1754586863
+    },
+    {
+      "value": 7340734,
+      "blockNumber": 23090723,
+      "blockTimestamp": 1754588279
+    },
+    {
+      "value": 7370958,
+      "blockNumber": 23090795,
+      "blockTimestamp": 1754589155
+    },
+    {
+      "value": 7336882,
+      "blockNumber": 23090848,
+      "blockTimestamp": 1754589791
+    },
+    {
+      "value": 7380351,
+      "blockNumber": 23090964,
+      "blockTimestamp": 1754591195
+    },
+    {
+      "value": 7411188,
+      "blockNumber": 23091133,
+      "blockTimestamp": 1754593259
+    },
+    {
+      "value": 7441265,
+      "blockNumber": 23091288,
+      "blockTimestamp": 1754595143
+    },
+    {
+      "value": 7471270,
+      "blockNumber": 23091309,
+      "blockTimestamp": 1754595395
+    },
+    {
+      "value": 7441160,
+      "blockNumber": 23091514,
+      "blockTimestamp": 1754597867
+    },
+    {
+      "value": 7480669,
+      "blockNumber": 23091585,
+      "blockTimestamp": 1754598719
+    }
+  ],
+  "SolvBTC/BTC": [
+    {
+      "value": 99955358,
+      "blockNumber": 23088418,
+      "blockTimestamp": 1754560451
+    },
+    {
+      "value": 99946381,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "sfrxETH/ETH": [
+    {
+      "value": 112749891,
+      "blockNumber": 23088418,
+      "blockTimestamp": 1754560451
+    },
+    {
+      "value": 112721148,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "swETH_FUNDAMENTAL": [
+    {
+      "value": 109925578,
+      "blockNumber": 23088418,
+      "blockTimestamp": 1754560451
+    },
+    {
+      "value": 109980427,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "SolvBTC": [
+    {
+      "value": 11498340296490,
+      "blockNumber": 23088418,
+      "blockTimestamp": 1754560451
+    },
+    {
+      "value": 11539253952335,
+      "blockNumber": 23088499,
+      "blockTimestamp": 1754561423
+    },
+    {
+      "value": 11581279832239,
+      "blockNumber": 23088594,
+      "blockTimestamp": 1754562563
+    },
+    {
+      "value": 11625322997923,
+      "blockNumber": 23088649,
+      "blockTimestamp": 1754563223
+    },
+    {
+      "value": 11627916716105,
+      "blockNumber": 23088651,
+      "blockTimestamp": 1754563247
+    },
+    {
+      "value": 11669009673333,
+      "blockNumber": 23088878,
+      "blockTimestamp": 1754565995
+    },
+    {
+      "value": 11628085602904,
+      "blockNumber": 23089091,
+      "blockTimestamp": 1754568575
+    },
+    {
+      "value": 11670823060747,
+      "blockNumber": 23090148,
+      "blockTimestamp": 1754581379
+    },
+    {
+      "value": 11670932779932,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 11629357081877,
+      "blockNumber": 23090447,
+      "blockTimestamp": 1754584967
+    },
+    {
+      "value": 11581979170330,
+      "blockNumber": 23090467,
+      "blockTimestamp": 1754585207
+    },
+    {
+      "value": 11625752396999,
+      "blockNumber": 23090536,
+      "blockTimestamp": 1754586035
+    },
+    {
+      "value": 11678932995661,
+      "blockNumber": 23091309,
+      "blockTimestamp": 1754595395
+    },
+    {
+      "value": 11724737384058,
+      "blockNumber": 23091355,
+      "blockTimestamp": 1754595947
+    }
+  ],
+  "PRIME_ECHELON": [
+    {
+      "value": 202214154,
+      "blockNumber": 23088435,
+      "blockTimestamp": 1754560655
+    },
+    {
+      "value": 203768336,
+      "blockNumber": 23088507,
+      "blockTimestamp": 1754561519
+    },
+    {
+      "value": 205413351,
+      "blockNumber": 23088603,
+      "blockTimestamp": 1754562671
+    },
+    {
+      "value": 206875856,
+      "blockNumber": 23088772,
+      "blockTimestamp": 1754564699
+    },
+    {
+      "value": 208762525,
+      "blockNumber": 23089052,
+      "blockTimestamp": 1754568107
+    },
+    {
+      "value": 207252072,
+      "blockNumber": 23089291,
+      "blockTimestamp": 1754570999
+    },
+    {
+      "value": 208820880,
+      "blockNumber": 23089601,
+      "blockTimestamp": 1754574755
+    },
+    {
+      "value": 207333168,
+      "blockNumber": 23089827,
+      "blockTimestamp": 1754577515
+    },
+    {
+      "value": 205127016,
+      "blockNumber": 23090122,
+      "blockTimestamp": 1754581055
+    },
+    {
+      "value": 204376198,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 202637552,
+      "blockNumber": 23090458,
+      "blockTimestamp": 1754585099
+    },
+    {
+      "value": 200454108,
+      "blockNumber": 23090473,
+      "blockTimestamp": 1754585279
+    },
+    {
+      "value": 199024740,
+      "blockNumber": 23090541,
+      "blockTimestamp": 1754586095
+    },
+    {
+      "value": 197619839,
+      "blockNumber": 23090566,
+      "blockTimestamp": 1754586395
+    },
+    {
+      "value": 199073825,
+      "blockNumber": 23090626,
+      "blockTimestamp": 1754587115
+    },
+    {
+      "value": 200600000,
+      "blockNumber": 23091288,
+      "blockTimestamp": 1754595143
+    },
+    {
+      "value": 202051510,
+      "blockNumber": 23091430,
+      "blockTimestamp": 1754596859
+    }
+  ],
+  "ETH": [
+    {
+      "value": 374494153185,
+      "blockNumber": 23088463,
+      "blockTimestamp": 1754560991
+    },
+    {
+      "value": 377145518235,
+      "blockNumber": 23088469,
+      "blockTimestamp": 1754561063
+    },
+    {
+      "value": 379558001788,
+      "blockNumber": 23088519,
+      "blockTimestamp": 1754561663
+    },
+    {
+      "value": 381620122475,
+      "blockNumber": 23088648,
+      "blockTimestamp": 1754563211
+    },
+    {
+      "value": 383842474312,
+      "blockNumber": 23088998,
+      "blockTimestamp": 1754567459
+    },
+    {
+      "value": 386265376480,
+      "blockNumber": 23089539,
+      "blockTimestamp": 1754574011
+    },
+    {
+      "value": 384334158105,
+      "blockNumber": 23089678,
+      "blockTimestamp": 1754575691
+    },
+    {
+      "value": 382360850930,
+      "blockNumber": 23089792,
+      "blockTimestamp": 1754577083
+    },
+    {
+      "value": 380285913730,
+      "blockNumber": 23090466,
+      "blockTimestamp": 1754585195
+    },
+    {
+      "value": 378824625985,
+      "blockNumber": 23090469,
+      "blockTimestamp": 1754585231
+    },
+    {
+      "value": 380751733294,
+      "blockNumber": 23090492,
+      "blockTimestamp": 1754585507
+    },
+    {
+      "value": 382718333812,
+      "blockNumber": 23090661,
+      "blockTimestamp": 1754587535
+    },
+    {
+      "value": 384276656830,
+      "blockNumber": 23091303,
+      "blockTimestamp": 1754595323
+    },
+    {
+      "value": 386339129000,
+      "blockNumber": 23091356,
+      "blockTimestamp": 1754595959
+    }
+  ],
+  "ETHx": [
+    {
+      "value": 400544633657,
+      "blockNumber": 23088467,
+      "blockTimestamp": 1754561039
+    },
+    {
+      "value": 404575347966,
+      "blockNumber": 23088521,
+      "blockTimestamp": 1754561687
+    },
+    {
+      "value": 407453723575,
+      "blockNumber": 23088965,
+      "blockTimestamp": 1754567039
+    },
+    {
+      "value": 410668382052,
+      "blockNumber": 23089538,
+      "blockTimestamp": 1754573999
+    },
+    {
+      "value": 407720547268,
+      "blockNumber": 23089711,
+      "blockTimestamp": 1754576099
+    },
+    {
+      "value": 408414179646,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 404291195308,
+      "blockNumber": 23090467,
+      "blockTimestamp": 1754585207
+    },
+    {
+      "value": 407134701274,
+      "blockNumber": 23090668,
+      "blockTimestamp": 1754587619
+    },
+    {
+      "value": 410065015477,
+      "blockNumber": 23091348,
+      "blockTimestamp": 1754595863
+    },
+    {
+      "value": 413245992195,
+      "blockNumber": 23091683,
+      "blockTimestamp": 1754599919
+    }
+  ],
+  "BTC": [
+    {
+      "value": 11576235174850,
+      "blockNumber": 23088585,
+      "blockTimestamp": 1754562455
+    },
+    {
+      "value": 11630640936376,
+      "blockNumber": 23088648,
+      "blockTimestamp": 1754563211
+    },
+    {
+      "value": 11680451929625,
+      "blockNumber": 23088998,
+      "blockTimestamp": 1754567459
+    },
+    {
+      "value": 11620886207700,
+      "blockNumber": 23089269,
+      "blockTimestamp": 1754570735
+    },
+    {
+      "value": 11674641874770,
+      "blockNumber": 23089539,
+      "blockTimestamp": 1754574011
+    },
+    {
+      "value": 11632270498605,
+      "blockNumber": 23089792,
+      "blockTimestamp": 1754577083
+    },
+    {
+      "value": 11572879834120,
+      "blockNumber": 23090469,
+      "blockTimestamp": 1754585231
+    },
+    {
+      "value": 11616974865227,
+      "blockNumber": 23090492,
+      "blockTimestamp": 1754585507
+    },
+    {
+      "value": 11676166610940,
+      "blockNumber": 23091303,
+      "blockTimestamp": 1754595323
+    },
+    {
+      "value": 11734339000000,
+      "blockNumber": 23091356,
+      "blockTimestamp": 1754595959
+    }
+  ],
+  "deUSD": [
+    {
+      "value": 99919996,
+      "blockNumber": 23088965,
+      "blockTimestamp": 1754567039
+    },
+    {
+      "value": 99936571,
+      "blockNumber": 23089399,
+      "blockTimestamp": 1754572319
+    },
+    {
+      "value": 99958315,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "C3M": [
+    {
+      "value": 12456000000,
+      "blockNumber": 23089044,
+      "blockTimestamp": 1754568011
+    }
+  ],
+  "LBTC_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "pzETH/ETH": [
+    {
+      "value": 120130240,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "pzETH_FUNDAMENTAL": [
+    {
+      "value": 121032384,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "USD3": [
+    {
+      "value": 105702031,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "eBTC/WBTC": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "pumpBTC/BTC": [
+    {
+      "value": 98211032,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "pumpBTC_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "fxUSD": [
+    {
+      "value": 99951064,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "ETHx/ETH": [
+    {
+      "value": 106471581,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "eUSD": [
+    {
+      "value": 99943538,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "osETH/ETH": [
+    {
+      "value": 105173453,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "rswETH/ETH": [
+    {
+      "value": 104153364,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "sUSDe": [
+    {
+      "value": 118905156,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "USDe": [
+    {
+      "value": 100094923,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "USDX": [
+    {
+      "value": 99897031,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "sUSDX_ETH_FUNDAMENTAL": [
+    {
+      "value": 110003990,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "beraSTONE_FUNDAMENTAL": [
+    {
+      "value": 100488323,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "BUIDL_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "deUSD_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "egETH_FUNDAMENTAL": [
+    {
+      "value": 103149019,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "USR": [
+    {
+      "value": 99996916,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "bfBTC_FUNDAMENTAL": [
+    {
+      "value": 104078001,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "HLScope_FUNDAMENTAL": [
+    {
+      "value": 119537907300,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "ACRED_FUNDAMENTAL": [
+    {
+      "value": 104600616000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 104674143100,
+      "blockNumber": 23091548,
+      "blockTimestamp": 1754598275
+    }
+  ],
+  "USDtb_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "tacETH_FUNDAMENTAL": [
+    {
+      "value": 100815978,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "tacUSD_FUNDAMENTAL": [
+    {
+      "value": 101228300,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "tacBTC_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "BUIDL_I_ETHEREUM_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "VBILL_ETHEREUM_FUNDAMENTAL": [
+    {
+      "value": 100000000,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "hwHLP_FUNDAMENTAL": [
+    {
+      "value": 101554400,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "CESR": [
+    {
+      "value": 2900200,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    },
+    {
+      "value": 2898300,
+      "blockNumber": 23091725,
+      "blockTimestamp": 1754600423
+    }
+  ],
+  "BUIDL_DAILY_INTEREST_ACCRUAL": [
+    {
+      "value": 10592,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ],
+  "BUIDL_I_ETHEREUM_DAILY_ACCRUAL": [
+    {
+      "value": 11495,
+      "blockNumber": 23090203,
+      "blockTimestamp": 1754582039
+    }
+  ]
+}

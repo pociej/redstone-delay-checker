@@ -1,0 +1,1740 @@
+{
+  "SWELL/ETH": [
+    {
+      "changeTimestamp": 1754558490000,
+      "propagationTimestamp": 1754558495000
+    },
+    {
+      "changeTimestamp": 1754558760000,
+      "propagationTimestamp": 1754558771000
+    },
+    {
+      "changeTimestamp": 1754558770000,
+      "propagationTimestamp": 1754558771000
+    },
+    {
+      "changeTimestamp": 1754558870000,
+      "propagationTimestamp": 1754558879000
+    },
+    {
+      "changeTimestamp": 1754559460000,
+      "propagationTimestamp": 1754559467000
+    },
+    {
+      "changeTimestamp": 1754559840000,
+      "propagationTimestamp": 1754559851000
+    },
+    {
+      "changeTimestamp": 1754559850000,
+      "propagationTimestamp": 1754559851000
+    },
+    {
+      "changeTimestamp": 1754560040000,
+      "propagationTimestamp": 1754560055000
+    },
+    {
+      "changeTimestamp": 1754560050000,
+      "propagationTimestamp": 1754560055000
+    },
+    {
+      "changeTimestamp": 1754561610000,
+      "propagationTimestamp": 1754561615000
+    },
+    {
+      "changeTimestamp": 1754561910000,
+      "propagationTimestamp": 1754561915000
+    },
+    {
+      "changeTimestamp": 1754562760000,
+      "propagationTimestamp": 1754562767000
+    },
+    {
+      "changeTimestamp": 1754563200000,
+      "propagationTimestamp": 1754563223000
+    },
+    {
+      "changeTimestamp": 1754563220000,
+      "propagationTimestamp": 1754563223000
+    },
+    {
+      "changeTimestamp": 1754564250000,
+      "propagationTimestamp": 1754564267000
+    },
+    {
+      "changeTimestamp": 1754564260000,
+      "propagationTimestamp": 1754564267000
+    },
+    {
+      "changeTimestamp": 1754564790000,
+      "propagationTimestamp": 1754564807000
+    },
+    {
+      "changeTimestamp": 1754564800000,
+      "propagationTimestamp": 1754564807000
+    },
+    {
+      "changeTimestamp": 1754564910000,
+      "propagationTimestamp": 1754564927000
+    },
+    {
+      "changeTimestamp": 1754564920000,
+      "propagationTimestamp": 1754564927000
+    },
+    {
+      "changeTimestamp": 1754565280000,
+      "propagationTimestamp": 1754565287000
+    },
+    {
+      "changeTimestamp": 1754565710000,
+      "propagationTimestamp": 1754565719000
+    },
+    {
+      "changeTimestamp": 1754565980000,
+      "propagationTimestamp": 1754565995000
+    },
+    {
+      "changeTimestamp": 1754565990000,
+      "propagationTimestamp": 1754565995000
+    },
+    {
+      "changeTimestamp": 1754567120000,
+      "propagationTimestamp": 1754567135000
+    },
+    {
+      "changeTimestamp": 1754567470000,
+      "propagationTimestamp": 1754567483000
+    },
+    {
+      "changeTimestamp": 1754567480000,
+      "propagationTimestamp": 1754567483000
+    },
+    {
+      "changeTimestamp": 1754568210000,
+      "propagationTimestamp": 1754568215000
+    },
+    {
+      "changeTimestamp": 1754569500000,
+      "propagationTimestamp": 1754569511000
+    },
+    {
+      "changeTimestamp": 1754569510000,
+      "propagationTimestamp": 1754569511000
+    },
+    {
+      "changeTimestamp": 1754569850000,
+      "propagationTimestamp": 1754569859000
+    },
+    {
+      "changeTimestamp": 1754570010000,
+      "propagationTimestamp": 1754570015000
+    },
+    {
+      "changeTimestamp": 1754571730000,
+      "propagationTimestamp": 1754571743000
+    },
+    {
+      "changeTimestamp": 1754571740000,
+      "propagationTimestamp": 1754571743000
+    },
+    {
+      "changeTimestamp": 1754571980000,
+      "propagationTimestamp": 1754571995000
+    },
+    {
+      "changeTimestamp": 1754571990000,
+      "propagationTimestamp": 1754571995000
+    },
+    {
+      "changeTimestamp": 1754572340000,
+      "propagationTimestamp": 1754572355000
+    },
+    {
+      "changeTimestamp": 1754572350000,
+      "propagationTimestamp": 1754572355000
+    },
+    {
+      "changeTimestamp": 1754572470000,
+      "propagationTimestamp": 1754572475000
+    },
+    {
+      "changeTimestamp": 1754572570000,
+      "propagationTimestamp": 1754572583000
+    },
+    {
+      "changeTimestamp": 1754573120000,
+      "propagationTimestamp": 1754573135000
+    },
+    {
+      "changeTimestamp": 1754573130000,
+      "propagationTimestamp": 1754573135000
+    },
+    {
+      "changeTimestamp": 1754573380000,
+      "propagationTimestamp": 1754573387000
+    },
+    {
+      "changeTimestamp": 1754573950000,
+      "propagationTimestamp": 1754573963000
+    },
+    {
+      "changeTimestamp": 1754573960000,
+      "propagationTimestamp": 1754573963000
+    },
+    {
+      "changeTimestamp": 1754573990000,
+      "propagationTimestamp": 1754573999000
+    },
+    {
+      "changeTimestamp": 1754575130000,
+      "propagationTimestamp": 1754575139000
+    },
+    {
+      "changeTimestamp": 1754575390000,
+      "propagationTimestamp": 1754575403000
+    },
+    {
+      "changeTimestamp": 1754575400000,
+      "propagationTimestamp": 1754575403000
+    },
+    {
+      "changeTimestamp": 1754575430000,
+      "propagationTimestamp": 1754575439000
+    },
+    {
+      "changeTimestamp": 1754575500000,
+      "propagationTimestamp": 1754575511000
+    },
+    {
+      "changeTimestamp": 1754575510000,
+      "propagationTimestamp": 1754575511000
+    },
+    {
+      "changeTimestamp": 1754575580000,
+      "propagationTimestamp": 1754575595000
+    },
+    {
+      "changeTimestamp": 1754575590000,
+      "propagationTimestamp": 1754575595000
+    },
+    {
+      "changeTimestamp": 1754576280000,
+      "propagationTimestamp": 1754576291000
+    },
+    {
+      "changeTimestamp": 1754576290000,
+      "propagationTimestamp": 1754576291000
+    },
+    {
+      "changeTimestamp": 1754577150000,
+      "propagationTimestamp": 1754577167000
+    },
+    {
+      "changeTimestamp": 1754577460000,
+      "propagationTimestamp": 1754577467000
+    },
+    {
+      "changeTimestamp": 1754578130000,
+      "propagationTimestamp": 1754578151000
+    },
+    {
+      "changeTimestamp": 1754578140000,
+      "propagationTimestamp": 1754578151000
+    },
+    {
+      "changeTimestamp": 1754578150000,
+      "propagationTimestamp": 1754578151000
+    },
+    {
+      "changeTimestamp": 1754578360000,
+      "propagationTimestamp": 1754578367000
+    },
+    {
+      "changeTimestamp": 1754578830000,
+      "propagationTimestamp": 1754578835000
+    },
+    {
+      "changeTimestamp": 1754579040000,
+      "propagationTimestamp": 1754579051000
+    },
+    {
+      "changeTimestamp": 1754579230000,
+      "propagationTimestamp": 1754579243000
+    },
+    {
+      "changeTimestamp": 1754579460000,
+      "propagationTimestamp": 1754579471000
+    },
+    {
+      "changeTimestamp": 1754579470000,
+      "propagationTimestamp": 1754579471000
+    },
+    {
+      "changeTimestamp": 1754579680000,
+      "propagationTimestamp": 1754579687000
+    },
+    {
+      "changeTimestamp": 1754580070000,
+      "propagationTimestamp": 1754580083000
+    },
+    {
+      "changeTimestamp": 1754580080000,
+      "propagationTimestamp": 1754580083000
+    },
+    {
+      "changeTimestamp": 1754580440000,
+      "propagationTimestamp": 1754580455000
+    },
+    {
+      "changeTimestamp": 1754580450000,
+      "propagationTimestamp": 1754580455000
+    },
+    {
+      "changeTimestamp": 1754581250000,
+      "propagationTimestamp": 1754581271000
+    },
+    {
+      "changeTimestamp": 1754581270000,
+      "propagationTimestamp": 1754581271000
+    },
+    {
+      "changeTimestamp": 1754583740000,
+      "propagationTimestamp": 1754583755000
+    },
+    {
+      "changeTimestamp": 1754583750000,
+      "propagationTimestamp": 1754583755000
+    },
+    {
+      "changeTimestamp": 1754585250000,
+      "propagationTimestamp": 1754585279000
+    },
+    {
+      "changeTimestamp": 1754585710000,
+      "propagationTimestamp": 1754585723000
+    },
+    {
+      "changeTimestamp": 1754585720000,
+      "propagationTimestamp": 1754585723000
+    },
+    {
+      "changeTimestamp": 1754586090000,
+      "propagationTimestamp": 1754586095000
+    },
+    {
+      "changeTimestamp": 1754586210000,
+      "propagationTimestamp": 1754586215000
+    },
+    {
+      "changeTimestamp": 1754586960000,
+      "propagationTimestamp": 1754586971000
+    },
+    {
+      "changeTimestamp": 1754588800000,
+      "propagationTimestamp": 1754588807000
+    }
+  ],
+  "BIO": [
+    {
+      "changeTimestamp": 1754558770000,
+      "propagationTimestamp": 1754558771000
+    },
+    {
+      "changeTimestamp": 1754559020000,
+      "propagationTimestamp": 1754559035000
+    },
+    {
+      "changeTimestamp": 1754559030000,
+      "propagationTimestamp": 1754559035000
+    },
+    {
+      "changeTimestamp": 1754559190000,
+      "propagationTimestamp": 1754559203000
+    },
+    {
+      "changeTimestamp": 1754559200000,
+      "propagationTimestamp": 1754559203000
+    },
+    {
+      "changeTimestamp": 1754559710000,
+      "propagationTimestamp": 1754559719000
+    },
+    {
+      "changeTimestamp": 1754559760000,
+      "propagationTimestamp": 1754559767000
+    },
+    {
+      "changeTimestamp": 1754560130000,
+      "propagationTimestamp": 1754560139000
+    },
+    {
+      "changeTimestamp": 1754560270000,
+      "propagationTimestamp": 1754560283000
+    },
+    {
+      "changeTimestamp": 1754560340000,
+      "propagationTimestamp": 1754560355000
+    },
+    {
+      "changeTimestamp": 1754560350000,
+      "propagationTimestamp": 1754560355000
+    },
+    {
+      "changeTimestamp": 1754560400000,
+      "propagationTimestamp": 1754560415000
+    },
+    {
+      "changeTimestamp": 1754560410000,
+      "propagationTimestamp": 1754560415000
+    },
+    {
+      "changeTimestamp": 1754560650000,
+      "propagationTimestamp": 1754560655000
+    },
+    {
+      "changeTimestamp": 1754561180000,
+      "propagationTimestamp": 1754561195000
+    },
+    {
+      "changeTimestamp": 1754561830000,
+      "propagationTimestamp": 1754561843000
+    },
+    {
+      "changeTimestamp": 1754561840000,
+      "propagationTimestamp": 1754561843000
+    },
+    {
+      "changeTimestamp": 1754562300000,
+      "propagationTimestamp": 1754562311000
+    },
+    {
+      "changeTimestamp": 1754562310000,
+      "propagationTimestamp": 1754562311000
+    },
+    {
+      "changeTimestamp": 1754562350000,
+      "propagationTimestamp": 1754562359000
+    },
+    {
+      "changeTimestamp": 1754562420000,
+      "propagationTimestamp": 1754562431000
+    },
+    {
+      "changeTimestamp": 1754562430000,
+      "propagationTimestamp": 1754562431000
+    },
+    {
+      "changeTimestamp": 1754562660000,
+      "propagationTimestamp": 1754562671000
+    },
+    {
+      "changeTimestamp": 1754562670000,
+      "propagationTimestamp": 1754562671000
+    },
+    {
+      "changeTimestamp": 1754562870000,
+      "propagationTimestamp": 1754562875000
+    },
+    {
+      "changeTimestamp": 1754562890000,
+      "propagationTimestamp": 1754562899000
+    },
+    {
+      "changeTimestamp": 1754562990000,
+      "propagationTimestamp": 1754562995000
+    },
+    {
+      "changeTimestamp": 1754563090000,
+      "propagationTimestamp": 1754563103000
+    },
+    {
+      "changeTimestamp": 1754563100000,
+      "propagationTimestamp": 1754563103000
+    },
+    {
+      "changeTimestamp": 1754563450000,
+      "propagationTimestamp": 1754563463000
+    },
+    {
+      "changeTimestamp": 1754563530000,
+      "propagationTimestamp": 1754563535000
+    },
+    {
+      "changeTimestamp": 1754563540000,
+      "propagationTimestamp": 1754563559000
+    },
+    {
+      "changeTimestamp": 1754563550000,
+      "propagationTimestamp": 1754563559000
+    },
+    {
+      "changeTimestamp": 1754563590000,
+      "propagationTimestamp": 1754563607000
+    },
+    {
+      "changeTimestamp": 1754563640000,
+      "propagationTimestamp": 1754563655000
+    },
+    {
+      "changeTimestamp": 1754563670000,
+      "propagationTimestamp": 1754563679000
+    },
+    {
+      "changeTimestamp": 1754563920000,
+      "propagationTimestamp": 1754563931000
+    },
+    {
+      "changeTimestamp": 1754564060000,
+      "propagationTimestamp": 1754564075000
+    },
+    {
+      "changeTimestamp": 1754564070000,
+      "propagationTimestamp": 1754564075000
+    },
+    {
+      "changeTimestamp": 1754564130000,
+      "propagationTimestamp": 1754564147000
+    },
+    {
+      "changeTimestamp": 1754564170000,
+      "propagationTimestamp": 1754564183000
+    },
+    {
+      "changeTimestamp": 1754564180000,
+      "propagationTimestamp": 1754564183000
+    },
+    {
+      "changeTimestamp": 1754564260000,
+      "propagationTimestamp": 1754564279000
+    },
+    {
+      "changeTimestamp": 1754564270000,
+      "propagationTimestamp": 1754564279000
+    },
+    {
+      "changeTimestamp": 1754564430000,
+      "propagationTimestamp": 1754564435000
+    },
+    {
+      "changeTimestamp": 1754564500000,
+      "propagationTimestamp": 1754564507000
+    },
+    {
+      "changeTimestamp": 1754564550000,
+      "propagationTimestamp": 1754564567000
+    },
+    {
+      "changeTimestamp": 1754564560000,
+      "propagationTimestamp": 1754564567000
+    },
+    {
+      "changeTimestamp": 1754564630000,
+      "propagationTimestamp": 1754564639000
+    },
+    {
+      "changeTimestamp": 1754564690000,
+      "propagationTimestamp": 1754564699000
+    },
+    {
+      "changeTimestamp": 1754564840000,
+      "propagationTimestamp": 1754564855000
+    },
+    {
+      "changeTimestamp": 1754564850000,
+      "propagationTimestamp": 1754564855000
+    },
+    {
+      "changeTimestamp": 1754565140000,
+      "propagationTimestamp": 1754565155000
+    },
+    {
+      "changeTimestamp": 1754565150000,
+      "propagationTimestamp": 1754565155000
+    },
+    {
+      "changeTimestamp": 1754565350000,
+      "propagationTimestamp": 1754565359000
+    },
+    {
+      "changeTimestamp": 1754565370000,
+      "propagationTimestamp": 1754565383000
+    },
+    {
+      "changeTimestamp": 1754565380000,
+      "propagationTimestamp": 1754565383000
+    },
+    {
+      "changeTimestamp": 1754565390000,
+      "propagationTimestamp": 1754565395000
+    },
+    {
+      "changeTimestamp": 1754565450000,
+      "propagationTimestamp": 1754565467000
+    },
+    {
+      "changeTimestamp": 1754565460000,
+      "propagationTimestamp": 1754565467000
+    },
+    {
+      "changeTimestamp": 1754565500000,
+      "propagationTimestamp": 1754565515000
+    },
+    {
+      "changeTimestamp": 1754565510000,
+      "propagationTimestamp": 1754565515000
+    },
+    {
+      "changeTimestamp": 1754565920000,
+      "propagationTimestamp": 1754565935000
+    },
+    {
+      "changeTimestamp": 1754566590000,
+      "propagationTimestamp": 1754566607000
+    },
+    {
+      "changeTimestamp": 1754566600000,
+      "propagationTimestamp": 1754566607000
+    },
+    {
+      "changeTimestamp": 1754566610000,
+      "propagationTimestamp": 1754566619000
+    },
+    {
+      "changeTimestamp": 1754566750000,
+      "propagationTimestamp": 1754566763000
+    },
+    {
+      "changeTimestamp": 1754566760000,
+      "propagationTimestamp": 1754566763000
+    },
+    {
+      "changeTimestamp": 1754566780000,
+      "propagationTimestamp": 1754566787000
+    },
+    {
+      "changeTimestamp": 1754566790000,
+      "propagationTimestamp": 1754566811000
+    },
+    {
+      "changeTimestamp": 1754566800000,
+      "propagationTimestamp": 1754566811000
+    },
+    {
+      "changeTimestamp": 1754566810000,
+      "propagationTimestamp": 1754566811000
+    },
+    {
+      "changeTimestamp": 1754566880000,
+      "propagationTimestamp": 1754566895000
+    },
+    {
+      "changeTimestamp": 1754566940000,
+      "propagationTimestamp": 1754566943000
+    },
+    {
+      "changeTimestamp": 1754567180000,
+      "propagationTimestamp": 1754567207000
+    },
+    {
+      "changeTimestamp": 1754567190000,
+      "propagationTimestamp": 1754567207000
+    },
+    {
+      "changeTimestamp": 1754567200000,
+      "propagationTimestamp": 1754567207000
+    },
+    {
+      "changeTimestamp": 1754567300000,
+      "propagationTimestamp": 1754567315000
+    },
+    {
+      "changeTimestamp": 1754567310000,
+      "propagationTimestamp": 1754567315000
+    },
+    {
+      "changeTimestamp": 1754567370000,
+      "propagationTimestamp": 1754567375000
+    },
+    {
+      "changeTimestamp": 1754567590000,
+      "propagationTimestamp": 1754567603000
+    },
+    {
+      "changeTimestamp": 1754567600000,
+      "propagationTimestamp": 1754567603000
+    },
+    {
+      "changeTimestamp": 1754567610000,
+      "propagationTimestamp": 1754567627000
+    },
+    {
+      "changeTimestamp": 1754567620000,
+      "propagationTimestamp": 1754567627000
+    },
+    {
+      "changeTimestamp": 1754567640000,
+      "propagationTimestamp": 1754567651000
+    },
+    {
+      "changeTimestamp": 1754567650000,
+      "propagationTimestamp": 1754567651000
+    },
+    {
+      "changeTimestamp": 1754567680000,
+      "propagationTimestamp": 1754567687000
+    },
+    {
+      "changeTimestamp": 1754568000000,
+      "propagationTimestamp": 1754568011000
+    },
+    {
+      "changeTimestamp": 1754568020000,
+      "propagationTimestamp": 1754568023000
+    },
+    {
+      "changeTimestamp": 1754568040000,
+      "propagationTimestamp": 1754568047000
+    },
+    {
+      "changeTimestamp": 1754568100000,
+      "propagationTimestamp": 1754568107000
+    },
+    {
+      "changeTimestamp": 1754568290000,
+      "propagationTimestamp": 1754568299000
+    },
+    {
+      "changeTimestamp": 1754568380000,
+      "propagationTimestamp": 1754568395000
+    },
+    {
+      "changeTimestamp": 1754568390000,
+      "propagationTimestamp": 1754568395000
+    },
+    {
+      "changeTimestamp": 1754568560000,
+      "propagationTimestamp": 1754568575000
+    },
+    {
+      "changeTimestamp": 1754568730000,
+      "propagationTimestamp": 1754568743000
+    },
+    {
+      "changeTimestamp": 1754568740000,
+      "propagationTimestamp": 1754568743000
+    },
+    {
+      "changeTimestamp": 1754568870000,
+      "propagationTimestamp": 1754568887000
+    },
+    {
+      "changeTimestamp": 1754568880000,
+      "propagationTimestamp": 1754568887000
+    },
+    {
+      "changeTimestamp": 1754568960000,
+      "propagationTimestamp": 1754568971000
+    },
+    {
+      "changeTimestamp": 1754568970000,
+      "propagationTimestamp": 1754568971000
+    },
+    {
+      "changeTimestamp": 1754569040000,
+      "propagationTimestamp": 1754569055000
+    },
+    {
+      "changeTimestamp": 1754569050000,
+      "propagationTimestamp": 1754569055000
+    },
+    {
+      "changeTimestamp": 1754569260000,
+      "propagationTimestamp": 1754569271000
+    },
+    {
+      "changeTimestamp": 1754569270000,
+      "propagationTimestamp": 1754569271000
+    },
+    {
+      "changeTimestamp": 1754569300000,
+      "propagationTimestamp": 1754569307000
+    },
+    {
+      "changeTimestamp": 1754569660000,
+      "propagationTimestamp": 1754569667000
+    },
+    {
+      "changeTimestamp": 1754570590000,
+      "propagationTimestamp": 1754570603000
+    },
+    {
+      "changeTimestamp": 1754570600000,
+      "propagationTimestamp": 1754570603000
+    },
+    {
+      "changeTimestamp": 1754570610000,
+      "propagationTimestamp": 1754570627000
+    },
+    {
+      "changeTimestamp": 1754570620000,
+      "propagationTimestamp": 1754570627000
+    },
+    {
+      "changeTimestamp": 1754570650000,
+      "propagationTimestamp": 1754570663000
+    },
+    {
+      "changeTimestamp": 1754570660000,
+      "propagationTimestamp": 1754570663000
+    },
+    {
+      "changeTimestamp": 1754570810000,
+      "propagationTimestamp": 1754570819000
+    },
+    {
+      "changeTimestamp": 1754571010000,
+      "propagationTimestamp": 1754571023000
+    },
+    {
+      "changeTimestamp": 1754571020000,
+      "propagationTimestamp": 1754571023000
+    },
+    {
+      "changeTimestamp": 1754572630000,
+      "propagationTimestamp": 1754572631000
+    },
+    {
+      "changeTimestamp": 1754573600000,
+      "propagationTimestamp": 1754573615000
+    },
+    {
+      "changeTimestamp": 1754573610000,
+      "propagationTimestamp": 1754573615000
+    },
+    {
+      "changeTimestamp": 1754574260000,
+      "propagationTimestamp": 1754574275000
+    },
+    {
+      "changeTimestamp": 1754574270000,
+      "propagationTimestamp": 1754574275000
+    },
+    {
+      "changeTimestamp": 1754574740000,
+      "propagationTimestamp": 1754574755000
+    },
+    {
+      "changeTimestamp": 1754574750000,
+      "propagationTimestamp": 1754574755000
+    },
+    {
+      "changeTimestamp": 1754574870000,
+      "propagationTimestamp": 1754574875000
+    },
+    {
+      "changeTimestamp": 1754574930000,
+      "propagationTimestamp": 1754574935000
+    },
+    {
+      "changeTimestamp": 1754575360000,
+      "propagationTimestamp": 1754575367000
+    },
+    {
+      "changeTimestamp": 1754575650000,
+      "propagationTimestamp": 1754575667000
+    },
+    {
+      "changeTimestamp": 1754575660000,
+      "propagationTimestamp": 1754575667000
+    },
+    {
+      "changeTimestamp": 1754575850000,
+      "propagationTimestamp": 1754575859000
+    },
+    {
+      "changeTimestamp": 1754575870000,
+      "propagationTimestamp": 1754575883000
+    },
+    {
+      "changeTimestamp": 1754575880000,
+      "propagationTimestamp": 1754575883000
+    },
+    {
+      "changeTimestamp": 1754575920000,
+      "propagationTimestamp": 1754575931000
+    },
+    {
+      "changeTimestamp": 1754575960000,
+      "propagationTimestamp": 1754575967000
+    },
+    {
+      "changeTimestamp": 1754575970000,
+      "propagationTimestamp": 1754575991000
+    },
+    {
+      "changeTimestamp": 1754575980000,
+      "propagationTimestamp": 1754575991000
+    },
+    {
+      "changeTimestamp": 1754575990000,
+      "propagationTimestamp": 1754575991000
+    },
+    {
+      "changeTimestamp": 1754576090000,
+      "propagationTimestamp": 1754576099000
+    },
+    {
+      "changeTimestamp": 1754576170000,
+      "propagationTimestamp": 1754576183000
+    },
+    {
+      "changeTimestamp": 1754576200000,
+      "propagationTimestamp": 1754576207000
+    },
+    {
+      "changeTimestamp": 1754576230000,
+      "propagationTimestamp": 1754576243000
+    },
+    {
+      "changeTimestamp": 1754576240000,
+      "propagationTimestamp": 1754576243000
+    },
+    {
+      "changeTimestamp": 1754576380000,
+      "propagationTimestamp": 1754576387000
+    },
+    {
+      "changeTimestamp": 1754577300000,
+      "propagationTimestamp": 1754577311000
+    },
+    {
+      "changeTimestamp": 1754577500000,
+      "propagationTimestamp": 1754577515000
+    },
+    {
+      "changeTimestamp": 1754577510000,
+      "propagationTimestamp": 1754577515000
+    },
+    {
+      "changeTimestamp": 1754577810000,
+      "propagationTimestamp": 1754577815000
+    },
+    {
+      "changeTimestamp": 1754578050000,
+      "propagationTimestamp": 1754578055000
+    },
+    {
+      "changeTimestamp": 1754578060000,
+      "propagationTimestamp": 1754578067000
+    },
+    {
+      "changeTimestamp": 1754578120000,
+      "propagationTimestamp": 1754578127000
+    },
+    {
+      "changeTimestamp": 1754578190000,
+      "propagationTimestamp": 1754578199000
+    },
+    {
+      "changeTimestamp": 1754578230000,
+      "propagationTimestamp": 1754578235000
+    },
+    {
+      "changeTimestamp": 1754578370000,
+      "propagationTimestamp": 1754578463000
+    },
+    {
+      "changeTimestamp": 1754578450000,
+      "propagationTimestamp": 1754578463000
+    },
+    {
+      "changeTimestamp": 1754578460000,
+      "propagationTimestamp": 1754578463000
+    },
+    {
+      "changeTimestamp": 1754578580000,
+      "propagationTimestamp": 1754578595000
+    },
+    {
+      "changeTimestamp": 1754578590000,
+      "propagationTimestamp": 1754578595000
+    },
+    {
+      "changeTimestamp": 1754578820000,
+      "propagationTimestamp": 1754578835000
+    },
+    {
+      "changeTimestamp": 1754578830000,
+      "propagationTimestamp": 1754578835000
+    },
+    {
+      "changeTimestamp": 1754578840000,
+      "propagationTimestamp": 1754578847000
+    },
+    {
+      "changeTimestamp": 1754578950000,
+      "propagationTimestamp": 1754578967000
+    },
+    {
+      "changeTimestamp": 1754578960000,
+      "propagationTimestamp": 1754578967000
+    },
+    {
+      "changeTimestamp": 1754578970000,
+      "propagationTimestamp": 1754578979000
+    },
+    {
+      "changeTimestamp": 1754579070000,
+      "propagationTimestamp": 1754579075000
+    },
+    {
+      "changeTimestamp": 1754579110000,
+      "propagationTimestamp": 1754579123000
+    },
+    {
+      "changeTimestamp": 1754579190000,
+      "propagationTimestamp": 1754579195000
+    },
+    {
+      "changeTimestamp": 1754579370000,
+      "propagationTimestamp": 1754579375000
+    },
+    {
+      "changeTimestamp": 1754579440000,
+      "propagationTimestamp": 1754579447000
+    },
+    {
+      "changeTimestamp": 1754579640000,
+      "propagationTimestamp": 1754579651000
+    },
+    {
+      "changeTimestamp": 1754579650000,
+      "propagationTimestamp": 1754579651000
+    },
+    {
+      "changeTimestamp": 1754579740000,
+      "propagationTimestamp": 1754579747000
+    },
+    {
+      "changeTimestamp": 1754579770000,
+      "propagationTimestamp": 1754579783000
+    },
+    {
+      "changeTimestamp": 1754579780000,
+      "propagationTimestamp": 1754579783000
+    },
+    {
+      "changeTimestamp": 1754579790000,
+      "propagationTimestamp": 1754579795000
+    },
+    {
+      "changeTimestamp": 1754579820000,
+      "propagationTimestamp": 1754579831000
+    },
+    {
+      "changeTimestamp": 1754579830000,
+      "propagationTimestamp": 1754579831000
+    },
+    {
+      "changeTimestamp": 1754580130000,
+      "propagationTimestamp": 1754580143000
+    },
+    {
+      "changeTimestamp": 1754580140000,
+      "propagationTimestamp": 1754580143000
+    },
+    {
+      "changeTimestamp": 1754580490000,
+      "propagationTimestamp": 1754580503000
+    },
+    {
+      "changeTimestamp": 1754580500000,
+      "propagationTimestamp": 1754580503000
+    },
+    {
+      "changeTimestamp": 1754580670000,
+      "propagationTimestamp": 1754580683000
+    },
+    {
+      "changeTimestamp": 1754580680000,
+      "propagationTimestamp": 1754580683000
+    },
+    {
+      "changeTimestamp": 1754580780000,
+      "propagationTimestamp": 1754580791000
+    },
+    {
+      "changeTimestamp": 1754580790000,
+      "propagationTimestamp": 1754580791000
+    },
+    {
+      "changeTimestamp": 1754580800000,
+      "propagationTimestamp": 1754580815000
+    },
+    {
+      "changeTimestamp": 1754580810000,
+      "propagationTimestamp": 1754580815000
+    },
+    {
+      "changeTimestamp": 1754581060000,
+      "propagationTimestamp": 1754581067000
+    },
+    {
+      "changeTimestamp": 1754581690000,
+      "propagationTimestamp": 1754581703000
+    },
+    {
+      "changeTimestamp": 1754581700000,
+      "propagationTimestamp": 1754581703000
+    },
+    {
+      "changeTimestamp": 1754581890000,
+      "propagationTimestamp": 1754581895000
+    },
+    {
+      "changeTimestamp": 1754581940000,
+      "propagationTimestamp": 1754581955000
+    },
+    {
+      "changeTimestamp": 1754581950000,
+      "propagationTimestamp": 1754581955000
+    },
+    {
+      "changeTimestamp": 1754582430000,
+      "propagationTimestamp": 1754582435000
+    },
+    {
+      "changeTimestamp": 1754582480000,
+      "propagationTimestamp": 1754582495000
+    },
+    {
+      "changeTimestamp": 1754582490000,
+      "propagationTimestamp": 1754582495000
+    },
+    {
+      "changeTimestamp": 1754582510000,
+      "propagationTimestamp": 1754582519000
+    },
+    {
+      "changeTimestamp": 1754582530000,
+      "propagationTimestamp": 1754582543000
+    },
+    {
+      "changeTimestamp": 1754582540000,
+      "propagationTimestamp": 1754582543000
+    },
+    {
+      "changeTimestamp": 1754582650000,
+      "propagationTimestamp": 1754582663000
+    },
+    {
+      "changeTimestamp": 1754582660000,
+      "propagationTimestamp": 1754582663000
+    },
+    {
+      "changeTimestamp": 1754582840000,
+      "propagationTimestamp": 1754582855000
+    },
+    {
+      "changeTimestamp": 1754582850000,
+      "propagationTimestamp": 1754582855000
+    },
+    {
+      "changeTimestamp": 1754583400000,
+      "propagationTimestamp": 1754583407000
+    },
+    {
+      "changeTimestamp": 1754583450000,
+      "propagationTimestamp": 1754583455000
+    },
+    {
+      "changeTimestamp": 1754583640000,
+      "propagationTimestamp": 1754583647000
+    },
+    {
+      "changeTimestamp": 1754583900000,
+      "propagationTimestamp": 1754583911000
+    },
+    {
+      "changeTimestamp": 1754583910000,
+      "propagationTimestamp": 1754583911000
+    },
+    {
+      "changeTimestamp": 1754584010000,
+      "propagationTimestamp": 1754584019000
+    },
+    {
+      "changeTimestamp": 1754584770000,
+      "propagationTimestamp": 1754584775000
+    },
+    {
+      "changeTimestamp": 1754584960000,
+      "propagationTimestamp": 1754584967000
+    },
+    {
+      "changeTimestamp": 1754585030000,
+      "propagationTimestamp": 1754585039000
+    },
+    {
+      "changeTimestamp": 1754585090000,
+      "propagationTimestamp": 1754585099000
+    },
+    {
+      "changeTimestamp": 1754585200000,
+      "propagationTimestamp": 1754585207000
+    },
+    {
+      "changeTimestamp": 1754585300000,
+      "propagationTimestamp": 1754585303000
+    },
+    {
+      "changeTimestamp": 1754585380000,
+      "propagationTimestamp": 1754585387000
+    },
+    {
+      "changeTimestamp": 1754585500000,
+      "propagationTimestamp": 1754585519000
+    },
+    {
+      "changeTimestamp": 1754585510000,
+      "propagationTimestamp": 1754585519000
+    },
+    {
+      "changeTimestamp": 1754586010000,
+      "propagationTimestamp": 1754586035000
+    },
+    {
+      "changeTimestamp": 1754586020000,
+      "propagationTimestamp": 1754586035000
+    },
+    {
+      "changeTimestamp": 1754586030000,
+      "propagationTimestamp": 1754586035000
+    },
+    {
+      "changeTimestamp": 1754586130000,
+      "propagationTimestamp": 1754586143000
+    },
+    {
+      "changeTimestamp": 1754586140000,
+      "propagationTimestamp": 1754586143000
+    },
+    {
+      "changeTimestamp": 1754586150000,
+      "propagationTimestamp": 1754586155000
+    },
+    {
+      "changeTimestamp": 1754586280000,
+      "propagationTimestamp": 1754586287000
+    },
+    {
+      "changeTimestamp": 1754586390000,
+      "propagationTimestamp": 1754586395000
+    },
+    {
+      "changeTimestamp": 1754586800000,
+      "propagationTimestamp": 1754586815000
+    },
+    {
+      "changeTimestamp": 1754586850000,
+      "propagationTimestamp": 1754586863000
+    },
+    {
+      "changeTimestamp": 1754586860000,
+      "propagationTimestamp": 1754586863000
+    },
+    {
+      "changeTimestamp": 1754587030000,
+      "propagationTimestamp": 1754587043000
+    },
+    {
+      "changeTimestamp": 1754587110000,
+      "propagationTimestamp": 1754587115000
+    },
+    {
+      "changeTimestamp": 1754587190000,
+      "propagationTimestamp": 1754587199000
+    },
+    {
+      "changeTimestamp": 1754588710000,
+      "propagationTimestamp": 1754588723000
+    },
+    {
+      "changeTimestamp": 1754588720000,
+      "propagationTimestamp": 1754588723000
+    },
+    {
+      "changeTimestamp": 1754588800000,
+      "propagationTimestamp": 1754588807000
+    }
+  ],
+  "USUAL": [
+    {
+      "changeTimestamp": 1754561020000,
+      "propagationTimestamp": 1754561039000
+    },
+    {
+      "changeTimestamp": 1754561030000,
+      "propagationTimestamp": 1754561039000
+    },
+    {
+      "changeTimestamp": 1754561510000,
+      "propagationTimestamp": 1754561519000
+    },
+    {
+      "changeTimestamp": 1754561790000,
+      "propagationTimestamp": 1754561795000
+    },
+    {
+      "changeTimestamp": 1754562620000,
+      "propagationTimestamp": 1754562635000
+    },
+    {
+      "changeTimestamp": 1754562630000,
+      "propagationTimestamp": 1754562635000
+    },
+    {
+      "changeTimestamp": 1754564040000,
+      "propagationTimestamp": 1754564051000
+    },
+    {
+      "changeTimestamp": 1754564050000,
+      "propagationTimestamp": 1754564051000
+    },
+    {
+      "changeTimestamp": 1754564630000,
+      "propagationTimestamp": 1754564639000
+    },
+    {
+      "changeTimestamp": 1754566930000,
+      "propagationTimestamp": 1754566943000
+    },
+    {
+      "changeTimestamp": 1754566940000,
+      "propagationTimestamp": 1754566943000
+    },
+    {
+      "changeTimestamp": 1754567030000,
+      "propagationTimestamp": 1754567039000
+    },
+    {
+      "changeTimestamp": 1754567200000,
+      "propagationTimestamp": 1754567231000
+    },
+    {
+      "changeTimestamp": 1754567210000,
+      "propagationTimestamp": 1754567231000
+    },
+    {
+      "changeTimestamp": 1754567220000,
+      "propagationTimestamp": 1754567231000
+    },
+    {
+      "changeTimestamp": 1754567230000,
+      "propagationTimestamp": 1754567231000
+    },
+    {
+      "changeTimestamp": 1754567290000,
+      "propagationTimestamp": 1754567303000
+    },
+    {
+      "changeTimestamp": 1754567300000,
+      "propagationTimestamp": 1754567303000
+    },
+    {
+      "changeTimestamp": 1754567430000,
+      "propagationTimestamp": 1754567435000
+    },
+    {
+      "changeTimestamp": 1754568210000,
+      "propagationTimestamp": 1754568215000
+    },
+    {
+      "changeTimestamp": 1754568610000,
+      "propagationTimestamp": 1754568623000
+    },
+    {
+      "changeTimestamp": 1754568620000,
+      "propagationTimestamp": 1754568623000
+    },
+    {
+      "changeTimestamp": 1754569550000,
+      "propagationTimestamp": 1754569559000
+    },
+    {
+      "changeTimestamp": 1754569830000,
+      "propagationTimestamp": 1754569835000
+    },
+    {
+      "changeTimestamp": 1754572130000,
+      "propagationTimestamp": 1754572139000
+    },
+    {
+      "changeTimestamp": 1754574030000,
+      "propagationTimestamp": 1754574035000
+    },
+    {
+      "changeTimestamp": 1754574190000,
+      "propagationTimestamp": 1754574203000
+    },
+    {
+      "changeTimestamp": 1754574200000,
+      "propagationTimestamp": 1754574203000
+    },
+    {
+      "changeTimestamp": 1754575730000,
+      "propagationTimestamp": 1754575739000
+    },
+    {
+      "changeTimestamp": 1754577100000,
+      "propagationTimestamp": 1754577107000
+    },
+    {
+      "changeTimestamp": 1754578230000,
+      "propagationTimestamp": 1754578235000
+    },
+    {
+      "changeTimestamp": 1754578750000,
+      "propagationTimestamp": 1754578763000
+    },
+    {
+      "changeTimestamp": 1754578760000,
+      "propagationTimestamp": 1754578763000
+    },
+    {
+      "changeTimestamp": 1754583190000,
+      "propagationTimestamp": 1754583203000
+    },
+    {
+      "changeTimestamp": 1754583200000,
+      "propagationTimestamp": 1754583203000
+    },
+    {
+      "changeTimestamp": 1754584890000,
+      "propagationTimestamp": 1754584907000
+    },
+    {
+      "changeTimestamp": 1754584900000,
+      "propagationTimestamp": 1754584907000
+    },
+    {
+      "changeTimestamp": 1754585190000,
+      "propagationTimestamp": 1754585207000
+    },
+    {
+      "changeTimestamp": 1754585200000,
+      "propagationTimestamp": 1754585207000
+    },
+    {
+      "changeTimestamp": 1754585230000,
+      "propagationTimestamp": 1754585243000
+    },
+    {
+      "changeTimestamp": 1754585240000,
+      "propagationTimestamp": 1754585243000
+    },
+    {
+      "changeTimestamp": 1754585330000,
+      "propagationTimestamp": 1754585339000
+    },
+    {
+      "changeTimestamp": 1754585500000,
+      "propagationTimestamp": 1754585519000
+    },
+    {
+      "changeTimestamp": 1754585510000,
+      "propagationTimestamp": 1754585519000
+    }
+  ],
+  "ETH": [
+    {
+      "changeTimestamp": 1754561030000,
+      "propagationTimestamp": 1754561063000
+    },
+    {
+      "changeTimestamp": 1754561040000,
+      "propagationTimestamp": 1754561063000
+    },
+    {
+      "changeTimestamp": 1754561050000,
+      "propagationTimestamp": 1754561063000
+    },
+    {
+      "changeTimestamp": 1754561060000,
+      "propagationTimestamp": 1754561063000
+    },
+    {
+      "changeTimestamp": 1754561650000,
+      "propagationTimestamp": 1754561663000
+    },
+    {
+      "changeTimestamp": 1754561660000,
+      "propagationTimestamp": 1754561663000
+    },
+    {
+      "changeTimestamp": 1754563200000,
+      "propagationTimestamp": 1754563211000
+    },
+    {
+      "changeTimestamp": 1754563210000,
+      "propagationTimestamp": 1754563211000
+    },
+    {
+      "changeTimestamp": 1754567450000,
+      "propagationTimestamp": 1754567459000
+    },
+    {
+      "changeTimestamp": 1754574000000,
+      "propagationTimestamp": 1754574011000
+    },
+    {
+      "changeTimestamp": 1754574010000,
+      "propagationTimestamp": 1754574011000
+    },
+    {
+      "changeTimestamp": 1754575690000,
+      "propagationTimestamp": 1754575691000
+    },
+    {
+      "changeTimestamp": 1754577080000,
+      "propagationTimestamp": 1754577083000
+    },
+    {
+      "changeTimestamp": 1754585190000,
+      "propagationTimestamp": 1754585195000
+    },
+    {
+      "changeTimestamp": 1754585500000,
+      "propagationTimestamp": 1754585507000
+    }
+  ],
+  "PROMPT": [
+    {
+      "changeTimestamp": 1754561040000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754561050000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754562550000,
+      "propagationTimestamp": 1754562563000
+    }
+  ],
+  "XVS": [
+    {
+      "changeTimestamp": 1754561050000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754561060000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754561080000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754562620000,
+      "propagationTimestamp": 1754562635000
+    },
+    {
+      "changeTimestamp": 1754562630000,
+      "propagationTimestamp": 1754562635000
+    }
+  ],
+  "PUFFER": [
+    {
+      "changeTimestamp": 1754561070000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754561080000,
+      "propagationTimestamp": 1754561087000
+    },
+    {
+      "changeTimestamp": 1754561410000,
+      "propagationTimestamp": 1754561423000
+    },
+    {
+      "changeTimestamp": 1754561420000,
+      "propagationTimestamp": 1754561423000
+    },
+    {
+      "changeTimestamp": 1754562200000,
+      "propagationTimestamp": 1754562215000
+    },
+    {
+      "changeTimestamp": 1754562210000,
+      "propagationTimestamp": 1754562215000
+    },
+    {
+      "changeTimestamp": 1754564350000,
+      "propagationTimestamp": 1754564363000
+    },
+    {
+      "changeTimestamp": 1754564360000,
+      "propagationTimestamp": 1754564363000
+    },
+    {
+      "changeTimestamp": 1754566370000,
+      "propagationTimestamp": 1754566379000
+    },
+    {
+      "changeTimestamp": 1754577320000,
+      "propagationTimestamp": 1754577335000
+    },
+    {
+      "changeTimestamp": 1754578040000,
+      "propagationTimestamp": 1754578055000
+    },
+    {
+      "changeTimestamp": 1754578050000,
+      "propagationTimestamp": 1754578055000
+    },
+    {
+      "changeTimestamp": 1754580190000,
+      "propagationTimestamp": 1754580191000
+    }
+  ],
+  "ETHx": [
+    {
+      "changeTimestamp": 1754561670000,
+      "propagationTimestamp": 1754561687000
+    },
+    {
+      "changeTimestamp": 1754585200000,
+      "propagationTimestamp": 1754585207000
+    }
+  ],
+  "SPK": [
+    {
+      "changeTimestamp": 1754566560000,
+      "propagationTimestamp": 1754566571000
+    },
+    {
+      "changeTimestamp": 1754568020000,
+      "propagationTimestamp": 1754568023000
+    },
+    {
+      "changeTimestamp": 1754570990000,
+      "propagationTimestamp": 1754570999000
+    },
+    {
+      "changeTimestamp": 1754572620000,
+      "propagationTimestamp": 1754572631000
+    },
+    {
+      "changeTimestamp": 1754578920000,
+      "propagationTimestamp": 1754578931000
+    },
+    {
+      "changeTimestamp": 1754578930000,
+      "propagationTimestamp": 1754578931000
+    },
+    {
+      "changeTimestamp": 1754579640000,
+      "propagationTimestamp": 1754579651000
+    },
+    {
+      "changeTimestamp": 1754579650000,
+      "propagationTimestamp": 1754579651000
+    },
+    {
+      "changeTimestamp": 1754579730000,
+      "propagationTimestamp": 1754579747000
+    },
+    {
+      "changeTimestamp": 1754579740000,
+      "propagationTimestamp": 1754579747000
+    },
+    {
+      "changeTimestamp": 1754579860000,
+      "propagationTimestamp": 1754579867000
+    },
+    {
+      "changeTimestamp": 1754579930000,
+      "propagationTimestamp": 1754579939000
+    },
+    {
+      "changeTimestamp": 1754580020000,
+      "propagationTimestamp": 1754580035000
+    },
+    {
+      "changeTimestamp": 1754580030000,
+      "propagationTimestamp": 1754580035000
+    },
+    {
+      "changeTimestamp": 1754580760000,
+      "propagationTimestamp": 1754580767000
+    },
+    {
+      "changeTimestamp": 1754581370000,
+      "propagationTimestamp": 1754581379000
+    },
+    {
+      "changeTimestamp": 1754581520000,
+      "propagationTimestamp": 1754581535000
+    },
+    {
+      "changeTimestamp": 1754581720000,
+      "propagationTimestamp": 1754581727000
+    },
+    {
+      "changeTimestamp": 1754581830000,
+      "propagationTimestamp": 1754581835000
+    },
+    {
+      "changeTimestamp": 1754581960000,
+      "propagationTimestamp": 1754581967000
+    },
+    {
+      "changeTimestamp": 1754582300000,
+      "propagationTimestamp": 1754582315000
+    },
+    {
+      "changeTimestamp": 1754582310000,
+      "propagationTimestamp": 1754582315000
+    },
+    {
+      "changeTimestamp": 1754583760000,
+      "propagationTimestamp": 1754583767000
+    },
+    {
+      "changeTimestamp": 1754584150000,
+      "propagationTimestamp": 1754584163000
+    },
+    {
+      "changeTimestamp": 1754584160000,
+      "propagationTimestamp": 1754584163000
+    },
+    {
+      "changeTimestamp": 1754585440000,
+      "propagationTimestamp": 1754585447000
+    }
+  ],
+  "BTC": [
+    {
+      "changeTimestamp": 1754570730000,
+      "propagationTimestamp": 1754570735000
+    },
+    {
+      "changeTimestamp": 1754585230000,
+      "propagationTimestamp": 1754585231000
+    }
+  ],
+  "PRIME_ECHELON": [
+    {
+      "changeTimestamp": 1754581040000,
+      "propagationTimestamp": 1754581055000
+    },
+    {
+      "changeTimestamp": 1754581050000,
+      "propagationTimestamp": 1754581055000
+    },
+    {
+      "changeTimestamp": 1754585270000,
+      "propagationTimestamp": 1754585279000
+    }
+  ]
+}

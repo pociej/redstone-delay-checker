@@ -1,0 +1,152 @@
+{
+  "from": "2025-08-07 11:21:35",
+  "to": "2025-08-07 23:21:35",
+  "delayStatistics": {
+    "onePerOnChainEvent": {
+      "SWELL/ETH": {
+        "max": 29,
+        "avg": 11.5
+      },
+      "BIO": {
+        "max": 93,
+        "avg": 11.34
+      },
+      "USUAL": {
+        "max": 31,
+        "avg": 11.43
+      },
+      "ETH": {
+        "max": 33,
+        "avg": 10.33
+      },
+      "PROMPT": {
+        "max": 47,
+        "avg": 30
+      },
+      "XVS": {
+        "max": 37,
+        "avg": 26
+      },
+      "PUFFER": {
+        "max": 17,
+        "avg": 12.25
+      },
+      "ETHx": {
+        "max": 17,
+        "avg": 12
+      },
+      "SPK": {
+        "max": 17,
+        "avg": 9.8
+      },
+      "BTC": {
+        "max": 5,
+        "avg": 3
+      },
+      "PRIME_ECHELON": {
+        "max": 15,
+        "avg": 12
+      }
+    },
+    "all": {
+      "SWELL/ETH": {
+        "max": 29,
+        "avg": 8.98
+      },
+      "BIO": {
+        "max": 93,
+        "avg": 9.22
+      },
+      "USUAL": {
+        "max": 31,
+        "avg": 9.36
+      },
+      "ETH": {
+        "max": 33,
+        "avg": 9.13
+      },
+      "PROMPT": {
+        "max": 47,
+        "avg": 32.33
+      },
+      "XVS": {
+        "max": 37,
+        "avg": 18.2
+      },
+      "PUFFER": {
+        "max": 17,
+        "avg": 9.31
+      },
+      "ETHx": {
+        "max": 17,
+        "avg": 12
+      },
+      "SPK": {
+        "max": 17,
+        "avg": 8.38
+      },
+      "BTC": {
+        "max": 5,
+        "avg": 3
+      },
+      "PRIME_ECHELON": {
+        "max": 15,
+        "avg": 9.67
+      }
+    }
+  },
+  "updatesPerFeed": {
+    "BIO": 213,
+    "XVS": 11,
+    "SWELL/ETH": 109,
+    "PUFFER": 26,
+    "SPK": 53,
+    "PROMPT": 17,
+    "EIGEN": 18,
+    "USUAL": 57,
+    "SolvBTC/BTC": 2,
+    "sfrxETH/ETH": 2,
+    "swETH_FUNDAMENTAL": 2,
+    "SolvBTC": 14,
+    "PRIME_ECHELON": 17,
+    "ETH": 14,
+    "ETHx": 10,
+    "BTC": 10,
+    "deUSD": 3,
+    "C3M": 1,
+    "LBTC_FUNDAMENTAL": 1,
+    "pzETH/ETH": 1,
+    "pzETH_FUNDAMENTAL": 1,
+    "USD3": 1,
+    "eBTC/WBTC": 1,
+    "pumpBTC/BTC": 1,
+    "pumpBTC_FUNDAMENTAL": 1,
+    "fxUSD": 1,
+    "ETHx/ETH": 1,
+    "eUSD": 1,
+    "osETH/ETH": 1,
+    "rswETH/ETH": 1,
+    "sUSDe": 1,
+    "USDe": 1,
+    "USDX": 1,
+    "sUSDX_ETH_FUNDAMENTAL": 1,
+    "beraSTONE_FUNDAMENTAL": 1,
+    "BUIDL_FUNDAMENTAL": 1,
+    "deUSD_FUNDAMENTAL": 1,
+    "egETH_FUNDAMENTAL": 1,
+    "USR": 1,
+    "bfBTC_FUNDAMENTAL": 1,
+    "HLScope_FUNDAMENTAL": 1,
+    "ACRED_FUNDAMENTAL": 2,
+    "USDtb_FUNDAMENTAL": 1,
+    "tacETH_FUNDAMENTAL": 1,
+    "tacUSD_FUNDAMENTAL": 1,
+    "tacBTC_FUNDAMENTAL": 1,
+    "BUIDL_I_ETHEREUM_FUNDAMENTAL": 1,
+    "VBILL_ETHEREUM_FUNDAMENTAL": 1,
+    "hwHLP_FUNDAMENTAL": 1,
+    "CESR": 2,
+    "BUIDL_DAILY_INTEREST_ACCRUAL": 1,
+    "BUIDL_I_ETHEREUM_DAILY_ACCRUAL": 1
+  }
+}
