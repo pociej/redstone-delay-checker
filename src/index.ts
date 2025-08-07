@@ -1,5 +1,4 @@
 import { indexOnChainData } from "./onChain";
 import { fetchHistoricalData } from "./offChain";
-
-// indexOnChainData();
-fetchHistoricalData();
+import { fetchDataForTimestamp } from "./offChain";
+const logsPerFeed = await indexOnChainData();

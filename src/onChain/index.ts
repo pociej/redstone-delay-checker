@@ -6,13 +6,14 @@ import { from } from "../dates";
 import { logger } from "../logger";
 import cliProgress from "cli-progress";
 import colors from "ansi-colors";
+import { args } from "../parseArgs";
 
 const SECONDS_PER_BLOCK = 12n;
-const SECONDS_PER_WEEK = 7n * 24n * 60n * 60n;
-const BLOCKS_PER_WEEK = SECONDS_PER_WEEK / SECONDS_PER_BLOCK;
+const SECONDS_PER_OFFSET = BigInt(args.start_offset) * 60n * 60n;
+const BLOCKS_PER_OFFSET = SECONDS_PER_OFFSET / SECONDS_PER_BLOCK;
 const CHUNK_SIZE = 2000n;
 
-type ValueUpdateDate = {
+export type ValueUpdateDate = {
   value: bigint;
   blockNumber: bigint;
   blockTimestamp: bigint;
@@ -84,7 +85,7 @@ async function getLastWeekDataInChunks() {
     logger.info(`\n=== Indexing last week ValueUpdate events ===`);
     let { number: fromBlockNumber } = await getFromBlock(
       latestBlockNumber,
-      BLOCKS_PER_WEEK,
+      BLOCKS_PER_OFFSET,
       from.toDate().getTime()
     );
     logger.info(`From block: ${fromBlockNumber}`);
@@ -93,7 +94,9 @@ async function getLastWeekDataInChunks() {
     const logsPerFeed: Record<string, ValueUpdateDate[]> = {};
     let toBlock;
     let chunkCount = 0;
-    const allChunksCount = BLOCKS_PER_WEEK / CHUNK_SIZE;
+    const allChunksCount = Math.ceil(
+      Number(BLOCKS_PER_OFFSET) / Number(CHUNK_SIZE)
+    );
     indexProgress.start(Number(allChunksCount), 0);
     while (fromBlockNumber < latestBlockNumber) {
       toBlock = fromBlockNumber + CHUNK_SIZE;
@@ -147,9 +150,9 @@ async function getLastWeekDataInChunks() {
 
 export async function indexOnChainData() {
   try {
-    await getLastWeekDataInChunks();
-    logger.info("Indexing completed successfully");
+    return await getLastWeekDataInChunks();
   } catch (error) {
     logger.error("Error:", error);
+    throw error;
   }
 }

@@ -10,4 +10,12 @@ export const logger = {
   error: (...errorArgs: any[]) => {
     console.error(chalk.red(...errorArgs));
   },
+  debug: (...debugArgs: any[]) => {
+    if (args.verbose) {
+      console.log(chalk.green(...debugArgs));
+    }
+  },
+  warn: (...warnArgs: any[]) => {
+    console.warn(chalk.yellow(...warnArgs));
+  },
 };
