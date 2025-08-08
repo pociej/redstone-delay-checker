@@ -2,6 +2,11 @@
 
 A tool for monitoring and analyzing Redstone oracle data feeds, comparing on-chain and off-chain data, and detecting price deviations.
 
+### <span style="color: red;">Important Note</span>
+
+<span style="color: red;"> Due to the API server limitation and fact it frequently goes down on high load
+offchain data calls are done sequentially to avoid overloading the server which results in longer processing time.</span>
+
 ## Installation
 
 ```bash
