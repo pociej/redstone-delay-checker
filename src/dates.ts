@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import { args } from "./parseArgs";
+import { start_offset } from "./parseArgs";
 
 export const end = dayjs();
-export const start = end.subtract(args.start_offset, "hours");
+export const start = end.subtract(start_offset, "hours");

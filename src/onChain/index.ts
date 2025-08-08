@@ -1,16 +1,12 @@
 #!/usr/bin/env bun
 
 import { parseAbiItem } from "viem";
-import { start } from "../dates";
 import { logger } from "../logger";
 import { CHUNK_SIZE, CHAINS } from "./constants";
-import type { Chain } from "viem";
 import { getBlockTimestamp } from "./getBlockTimestamp";
-import { getStartBlock } from "./getStartBlock";
 import { createPublicClient } from "./client";
 import { decodeDataFeedId } from "./decodeDataFeedId";
 import { indexProgress } from "./progress";
-import { estimateBlocksInOffset } from "./estimateBlocksInOffset";
 import { writeJsonToFile } from "../writeJsonToFile";
 
 export type ValueUpdateData = {
@@ -24,24 +20,15 @@ const valueUpdateEvent = parseAbiItem(
 );
 
 async function getEventsInChunks({
-  offsetHours,
+  startBlockNumber,
   chainName,
 }: {
-  offsetHours: number;
+  startBlockNumber: bigint;
   chainName: keyof typeof CHAINS;
 }) {
   const logsPerFeed: Record<string, ValueUpdateData[]> = {};
-  const estimatedBlocksInOffset = estimateBlocksInOffset(offsetHours);
   const client = createPublicClient(chainName);
   const latestBlockNumber = await client.getBlockNumber();
-
-  let { number: startBlockNumber } = await getStartBlock({
-    latestBlockNumber,
-    estimatedBlocksInOffset,
-    timestamp: start.toDate().getTime(),
-    chainName,
-  });
-
   try {
     logger.info(`\n=== Indexing last week ValueUpdate events ===`);
 
@@ -49,56 +36,83 @@ async function getEventsInChunks({
     logger.info(`To block: ${latestBlockNumber}`);
     logger.info(`=============================================\n`);
 
-    let toBlock;
     let chunkCount = 0;
 
     const allChunksCount = Math.ceil(
       Number(latestBlockNumber - startBlockNumber) / Number(CHUNK_SIZE)
     );
+    console.log("allChunksCount", allChunksCount);
+
     indexProgress.start(Number(allChunksCount), 0);
 
-    while (startBlockNumber < latestBlockNumber) {
-      toBlock = startBlockNumber + CHUNK_SIZE;
+    const chunkRanges: Array<{ from: bigint; to: bigint }> = [];
+    let start = startBlockNumber;
 
-      if (toBlock > latestBlockNumber) {
-        toBlock = latestBlockNumber;
-      }
+    while (start < latestBlockNumber) {
+      let end = start + CHUNK_SIZE - 1n;
+      if (end > latestBlockNumber) end = latestBlockNumber;
+      chunkRanges.push({ from: start, to: end });
+      start = end + 1n;
+    }
 
-      chunkCount++;
+    chunkCount = chunkRanges.length;
 
-      const logs = await client.getLogs({
-        address: CHAINS[chainName].contractAddress,
-        event: valueUpdateEvent,
-        fromBlock: startBlockNumber,
-        toBlock,
-      });
+    let completed = 0;
+    const chunkProcessors = chunkRanges.map(({ from, to }) =>
+      (async () => {
+        const logs = await client.getLogs({
+          address: CHAINS[chainName].contractAddress,
+          event: valueUpdateEvent,
+          fromBlock: from,
+          toBlock: to,
+        });
 
-      for (const log of logs) {
-        const dataFeedId = log.args.dataFeedId;
+        const chunkMap: Record<string, ValueUpdateData[]> = {};
 
-        if (dataFeedId) {
+        for (const log of logs) {
+          const dataFeedId = log.args.dataFeedId;
+          if (!dataFeedId) {
+            logger.error(`Invalid dataFeedId: ${dataFeedId}`);
+            continue;
+          }
+
           const decodedId = decodeDataFeedId(dataFeedId);
+
+          //TODO:  this could also be done in parallel to speed up the process
+
           const blockTimestamp = await getBlockTimestamp(
             log.blockNumber,
             chainName
           );
 
-          if (!logsPerFeed[decodedId]) {
-            logsPerFeed[decodedId] = [];
+          if (!chunkMap[decodedId]) {
+            chunkMap[decodedId] = [];
           }
 
-          logsPerFeed[decodedId].push({
+          chunkMap[decodedId].push({
             value: Number(log.args.value),
             blockNumber: Number(log.blockNumber),
             blockTimestamp: Number(blockTimestamp),
           });
-        } else {
-          logger.error(`Invalid dataFeedId: ${dataFeedId}`);
         }
-      }
 
-      startBlockNumber = toBlock + 1n;
-      indexProgress.update(chunkCount);
+        return chunkMap;
+      })().finally(() => {
+        completed += 1;
+        indexProgress.update(completed);
+      })
+    );
+
+    // Process all chunks in parallel
+
+    const chunkResults = await Promise.all(chunkProcessors);
+
+    // Merge chunk results into logsPerFeed
+    for (const chunkMap of chunkResults) {
+      for (const [feedId, entries] of Object.entries(chunkMap)) {
+        if (!logsPerFeed[feedId]) logsPerFeed[feedId] = [];
+        logsPerFeed[feedId].push(...entries);
+      }
     }
 
     indexProgress.stop();
@@ -115,15 +129,15 @@ async function getEventsInChunks({
 }
 
 export async function indexOnChainData({
-  offsetHours,
+  startBlockNumber,
   chainName,
 }: {
-  offsetHours: number;
+  startBlockNumber: bigint;
   chainName: keyof typeof CHAINS;
 }) {
   try {
     return await getEventsInChunks({
-      offsetHours,
+      startBlockNumber,
       chainName,
     });
   } catch (error) {

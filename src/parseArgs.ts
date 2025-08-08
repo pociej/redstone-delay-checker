@@ -36,6 +36,12 @@ const argv = await yargs(hideBin(process.argv))
     type: "string",
     default: "mainnet",
   })
+  .option("allEvents", {
+    alias: "a",
+    describe: "Index all events from contract creation block",
+    type: "boolean",
+    default: false,
+  })
   .check((argv) => {
     if (argv.delay < 0) {
       throw new Error("Delay must be greater than 0");
@@ -52,14 +58,5 @@ const argv = await yargs(hideBin(process.argv))
   })
   .help().argv;
 
-const { datafeeds, verbose, delay, start_offset, start_offset_unit, chain } =
+export const { datafeeds, verbose, delay, start_offset, chain, allEvents } =
   argv;
-
-export const args = {
-  datafeeds: datafeeds || ALL_DATA_FEEDS,
-  verbose,
-  chain,
-  delay,
-  start_offset,
-  start_offset_unit,
-};

@@ -1,0 +1,107 @@
+{
+  "from": "2025-08-08 21:13:14",
+  "to": "2025-08-08 22:13:14",
+  "delayStatistics": {
+    "onePerOnChainEvent": {
+      "PUFFER": {
+        "max": 15,
+        "avg": 10
+      },
+      "BIO": {
+        "max": 5,
+        "avg": 5
+      },
+      "SWELL/ETH": {
+        "max": 11,
+        "avg": 9
+      },
+      "ETH": {
+        "max": 11,
+        "avg": 8
+      },
+      "EIGEN": {
+        "max": 13,
+        "avg": 13
+      }
+    },
+    "all": {
+      "PUFFER": {
+        "max": 15,
+        "avg": 8.33
+      },
+      "BIO": {
+        "max": 5,
+        "avg": 5
+      },
+      "SWELL/ETH": {
+        "max": 11,
+        "avg": 9
+      },
+      "ETH": {
+        "max": 11,
+        "avg": 5.67
+      },
+      "EIGEN": {
+        "max": 13,
+        "avg": 13
+      }
+    }
+  },
+  "updatesPerFeed": {
+    "LBTC_FUNDAMENTAL_1": 22,
+    "LBTC_FUNDAMENTAL": 809,
+    "pzETH_FUNDAMENTAL": 790,
+    "pzETH": 37,
+    "USD3": 794,
+    "deUSD": 1241,
+    "pzETH/ETH": 832,
+    "eBTC/WBTC": 777,
+    "CESR": 10112,
+    "deUSD_FUNDAMENTAL": 3729,
+    "SolvBTC": 9851,
+    "pumpBTC/BTC": 828,
+    "fxUSD": 781,
+    "SolvBTC/BTC": 1642,
+    "PUFFER": 16464,
+    "pumpBTC_FUNDAMENTAL": 663,
+    "C3M": 665,
+    "ETHx/ETH": 604,
+    "eUSD": 602,
+    "osETH/ETH": 602,
+    "rswETH/ETH": 617,
+    "sfrxETH/ETH": 1297,
+    "sUSDe": 689,
+    "USDe": 692,
+    "sUSDX_ETH_FUNDAMENTAL": 580,
+    "beraETH_FUNDAMENTAL": 74,
+    "SWELL/ETH": 27134,
+    "USDX": 580,
+    "ETHx": 4657,
+    "XVS": 6054,
+    "BTC": 5124,
+    "ETH": 11101,
+    "BIO": 12790,
+    "BUIDL_FUNDAMENTAL": 526,
+    "beraSTONE_FUNDAMENTAL": 509,
+    "egETH_FUNDAMENTAL": 496,
+    "USR": 499,
+    "bfBTC_FUNDAMENTAL": 1295,
+    "HLScope_FUNDAMENTAL": 483,
+    "ACRED_FUNDAMENTAL": 526,
+    "USUAL": 25435,
+    "USDtb_FUNDAMENTAL": 3928,
+    "PRIME_ECHELON": 5114,
+    "PROMPT": 7040,
+    "EIGEN": 6335,
+    "tacETH_FUNDAMENTAL": 151,
+    "tacUSD_FUNDAMENTAL": 151,
+    "tacBTC_FUNDAMENTAL": 151,
+    "swETH_FUNDAMENTAL": 354,
+    "BUIDL_DAILY_INTEREST_ACCRUAL": 188,
+    "BUIDL_I_ETHEREUM_FUNDAMENTAL": 134,
+    "BUIDL_I_ETHEREUM_DAILY_ACCRUAL": 189,
+    "VBILL_ETHEREUM_FUNDAMENTAL": 103,
+    "SPK": 5377,
+    "hwHLP_FUNDAMENTAL": 54
+  }
+}

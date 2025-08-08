@@ -1,9 +1,9 @@
-import { args } from "./parseArgs";
+import { verbose } from "./parseArgs";
 import chalk from "chalk";
 
 export const logger = {
   info: (...infoArgs: any[]) => {
-    if (args.verbose) {
+    if (verbose) {
       console.log(chalk.blue(...infoArgs));
     }
   },
@@ -11,7 +11,7 @@ export const logger = {
     console.error(chalk.red(...errorArgs));
   },
   debug: (...debugArgs: any[]) => {
-    if (args.verbose) {
+    if (verbose) {
       console.log(chalk.green(...debugArgs));
     }
   },

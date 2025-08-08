@@ -1,16 +1,23 @@
 import { indexOnChainData } from "./onChain";
-import { args } from "./parseArgs";
+import { chain, start_offset, allEvents } from "./parseArgs";
+import { CHAINS } from "./onChain/constants";
+import { getIndexingStartBlock } from "./onChain/indexingStrategy";
 import { parseOffChainData } from "./offChain";
 import { getStatistics } from "./process.statistics";
 import { writeJsonToFile } from "./writeJsonToFile";
 import { start, end } from "./dates";
-import { CHAINS } from "./onChain/constants";
+
+const startBlockNumber = await getIndexingStartBlock({
+  chainName: chain as keyof typeof CHAINS,
+  useAllEvents: allEvents,
+  offsetHours: start_offset,
+});
 // index on chain data for longer period to have as many "currentPrices" as possible
 // on start processing offchain data
 
 const onChainFeed = await indexOnChainData({
-  offsetHours: 2 * args.start_offset,
-  chainName: args.chain as keyof typeof CHAINS,
+  startBlockNumber,
+  chainName: chain as keyof typeof CHAINS,
 });
 
 const offChainFeed = await parseOffChainData(onChainFeed, {

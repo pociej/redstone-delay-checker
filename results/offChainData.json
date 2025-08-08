@@ -1,0 +1,56 @@
+{
+  "PUFFER": [
+    {
+      "changeTimestamp": 1754680770000,
+      "propagationTimestamp": 1754680775000
+    },
+    {
+      "changeTimestamp": 1754682200000,
+      "propagationTimestamp": 1754682215000
+    },
+    {
+      "changeTimestamp": 1754682210000,
+      "propagationTimestamp": 1754682215000
+    }
+  ],
+  "BIO": [
+    {
+      "changeTimestamp": 1754680770000,
+      "propagationTimestamp": 1754680775000
+    },
+    {
+      "changeTimestamp": 1754680890000,
+      "propagationTimestamp": 1754680895000
+    }
+  ],
+  "SWELL/ETH": [
+    {
+      "changeTimestamp": 1754681400000,
+      "propagationTimestamp": 1754681411000
+    },
+    {
+      "changeTimestamp": 1754683240000,
+      "propagationTimestamp": 1754683247000
+    }
+  ],
+  "ETH": [
+    {
+      "changeTimestamp": 1754681910000,
+      "propagationTimestamp": 1754681915000
+    },
+    {
+      "changeTimestamp": 1754682360000,
+      "propagationTimestamp": 1754682371000
+    },
+    {
+      "changeTimestamp": 1754682370000,
+      "propagationTimestamp": 1754682371000
+    }
+  ],
+  "EIGEN": [
+    {
+      "changeTimestamp": 1754682970000,
+      "propagationTimestamp": 1754682983000
+    }
+  ]
+}
