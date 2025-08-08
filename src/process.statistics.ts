@@ -69,8 +69,23 @@ const filterTriggers = (triggers: OffChainFeed) => {
 };
 
 const countEventsPerFeed = (onChainFeed: OnChainFeed) => {
-  return Object.keys(onChainFeed).reduce((acc, key) => {
-    acc[key] = onChainFeed[key].length;
+  const startUnix = start.unix();
+  const sortedEntries = Object.entries(onChainFeed)
+    // only onchain events newer than start time (as we are indexing from the past)
+    .map(
+      ([key, arr]) =>
+        [
+          key,
+          arr.filter((evt) => evt.blockTimestamp >= startUnix).length,
+        ] as const
+    )
+    // 0s are not interesting
+    .filter(([, count]) => count > 0)
+    // sort by count
+    .sort((a, b) => b[1] - a[1]);
+
+  return sortedEntries.reduce((acc, [key, count]) => {
+    acc[key] = count;
     return acc;
   }, {} as Record<string, number>);
 };

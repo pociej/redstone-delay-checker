@@ -19,15 +19,17 @@ pnpm dev
 
 ### Command Line Options
 
-- `--datafeeds, -d`: List of datafeeds to monitor (default: all) (TODO)
+- `--datafeeds, -d`: List of datafeeds to monitor (default: all) (TODO : consider if its realy needed)
 - `--verbose, -v`: Enable verbose output (default: false)
 - `--delay, -l`: Delay in seconds (works only if verbose is enabled)
 - `--start_offset, -s`: Start offset in hours (default: 168 hours / 7 days)
+- `--chain, -c`: Chain to monitor (default: mainnet, options: mainnet, bsc)
+- `--allEvents, -a`: Index all events from contract creation block (default: false) look at indexingStrategy.ts for more details
 
 Example:
 
 ```bash
-# Run for BSC chain for last 24 hours
-pnpm run dev -s 24 -c bsc
+# Run for BSC chain for last 24 hours indexing all events from contract creation block
+pnpm run dev -s 24 -c bsc -a
 
 ```
