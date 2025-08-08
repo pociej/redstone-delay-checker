@@ -124,6 +124,7 @@ const processDataItem = ({
     }
   });
 
+  // Create triggers object
   // Compare prices deviation
   const triggers = comparePricesDeviation(
     onChainFeedManager.getCurrentPrices(),
@@ -131,7 +132,6 @@ const processDataItem = ({
     timestamp
   );
 
-  // Create triggers object
   return Object.keys(triggers).reduce((acc, key) => {
     const nextEventTimestamp = onChainFeedManager.getNextTimestamp(key);
     if (!nextEventTimestamp) {

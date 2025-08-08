@@ -115,6 +115,12 @@ async function getEventsInChunks({
       }
     }
 
+    // Sort all feeds by block timestamp
+    for (const [feedId, entries] of Object.entries(logsPerFeed)) {
+      entries.sort((a, b) => a.blockTimestamp - b.blockTimestamp);
+      logsPerFeed[feedId] = entries;
+    }
+
     indexProgress.stop();
 
     logger.info(`\n=== Completed processing ${chunkCount} chunks ===`);

@@ -22,6 +22,14 @@ Run the development server:
 pnpm dev
 ```
 
+### Output
+
+Script creates `results` directory and stores following files:
+
+- `logsPerFeed.json`: On-chain events logs per feed
+- `offChainData.json`: Off-chain data per feed representing all the triggers of onchain data feed changes (changeTimestamp) and onchain appearance block timestamp (propagationTimestamp)
+- `statistics.json`: Statistics per feed
+
 ### Command Line Options
 
 - `--datafeeds, -d`: List of datafeeds to monitor (default: all) (TODO : consider if its realy needed)
