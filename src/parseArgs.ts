@@ -17,12 +17,6 @@ const argv = await yargs(hideBin(process.argv))
     type: "boolean",
     default: false,
   })
-  .option("delay", {
-    alias: "l",
-    describe: "Delay in seconds (works only if verbose is enabled)",
-    type: "number",
-    default: 0,
-  })
   .option("start_offset", {
     alias: "s",
     describe: "Start offset in hours",
@@ -43,12 +37,6 @@ const argv = await yargs(hideBin(process.argv))
     default: false,
   })
   .check((argv) => {
-    if (argv.delay < 0) {
-      throw new Error("Delay must be greater than 0");
-    }
-    if (argv.delay && !argv.verbose) {
-      throw new Error("The --delay option can only be used with --verbose.");
-    }
     if (!CHAINS[argv.chain]) {
       throw new Error(
         "Only " + Object.keys(CHAINS).join(", ") + " are supported"
@@ -58,5 +46,4 @@ const argv = await yargs(hideBin(process.argv))
   })
   .help().argv;
 
-export const { datafeeds, verbose, delay, start_offset, chain, allEvents } =
-  argv;
+export const { datafeeds, verbose, start_offset, chain, allEvents } = argv;

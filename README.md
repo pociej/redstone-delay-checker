@@ -21,7 +21,6 @@ pnpm dev
 
 - `--datafeeds, -d`: List of datafeeds to monitor (default: all) (TODO : consider if its realy needed)
 - `--verbose, -v`: Enable verbose output (default: false)
-- `--delay, -l`: Delay in seconds (works only if verbose is enabled)
 - `--start_offset, -s`: Start offset in hours (default: 168 hours / 7 days)
 - `--chain, -c`: Chain to monitor (default: mainnet, options: mainnet, bsc)
 - `--allEvents, -a`: Index all events from contract creation block (default: false) look at indexingStrategy.ts for more details
