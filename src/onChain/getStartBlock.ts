@@ -1,18 +1,18 @@
 import { createPublicClient } from "./client";
-import type { Chain } from "viem";
+import { CHAINS } from "./constants";
 
 export async function getStartBlock({
   latestBlockNumber,
   estimatedBlocksInOffset,
   timestamp,
-  chain,
+  chainName,
 }: {
   latestBlockNumber: bigint;
   estimatedBlocksInOffset: bigint;
   timestamp: number;
-  chain: Chain;
+  chainName: keyof typeof CHAINS;
 }) {
-  const client = createPublicClient(chain);
+  const client = createPublicClient(chainName);
   let startBlockNumber = latestBlockNumber - estimatedBlocksInOffset;
   let startBlock = await client.getBlock({ blockNumber: startBlockNumber });
 

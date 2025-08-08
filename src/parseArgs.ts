@@ -34,7 +34,7 @@ const argv = await yargs(hideBin(process.argv))
     alias: "c",
     describe: "Chain to monitor",
     type: "string",
-    default: "Ethereum",
+    default: "mainnet",
   })
   .check((argv) => {
     if (argv.delay < 0) {
@@ -55,12 +55,10 @@ const argv = await yargs(hideBin(process.argv))
 const { datafeeds, verbose, delay, start_offset, start_offset_unit, chain } =
   argv;
 
-const chainName = chain === "Ethereum" ? "mainnet" : chain;
-
 export const args = {
   datafeeds: datafeeds || ALL_DATA_FEEDS,
   verbose,
-  chain: chains[chainName],
+  chain,
   delay,
   start_offset,
   start_offset_unit,

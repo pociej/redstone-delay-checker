@@ -25,21 +25,21 @@ const valueUpdateEvent = parseAbiItem(
 
 async function getEventsInChunks({
   offsetHours,
-  chain,
+  chainName,
 }: {
   offsetHours: number;
-  chain: Chain;
+  chainName: keyof typeof CHAINS;
 }) {
   const logsPerFeed: Record<string, ValueUpdateData[]> = {};
   const estimatedBlocksInOffset = estimateBlocksInOffset(offsetHours);
-  const client = createPublicClient(chain);
+  const client = createPublicClient(chainName);
   const latestBlockNumber = await client.getBlockNumber();
 
   let { number: startBlockNumber } = await getStartBlock({
     latestBlockNumber,
     estimatedBlocksInOffset,
     timestamp: start.toDate().getTime(),
-    chain,
+    chainName,
   });
 
   try {
@@ -67,7 +67,7 @@ async function getEventsInChunks({
       chunkCount++;
 
       const logs = await client.getLogs({
-        address: CHAINS[chain.name].contractAddress,
+        address: CHAINS[chainName].contractAddress,
         event: valueUpdateEvent,
         fromBlock: startBlockNumber,
         toBlock,
@@ -80,7 +80,7 @@ async function getEventsInChunks({
           const decodedId = decodeDataFeedId(dataFeedId);
           const blockTimestamp = await getBlockTimestamp(
             log.blockNumber,
-            chain
+            chainName
           );
 
           if (!logsPerFeed[decodedId]) {
@@ -116,15 +116,15 @@ async function getEventsInChunks({
 
 export async function indexOnChainData({
   offsetHours,
-  chain,
+  chainName,
 }: {
   offsetHours: number;
-  chain: Chain;
+  chainName: keyof typeof CHAINS;
 }) {
   try {
     return await getEventsInChunks({
       offsetHours,
-      chain,
+      chainName,
     });
   } catch (error) {
     logger.error("Error:", error);

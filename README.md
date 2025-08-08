@@ -27,9 +27,7 @@ pnpm dev
 Example:
 
 ```bash
-# Run with verbose output
-pnpm dev -- -v
+# Run for BSC chain for last 24 hours
+pnpm run dev -s 24 -c bsc
 
-# Run the missing XRD example with a 24-hour offset ( not to index too much data)
-pnpm missingXRD -s 24
 ```

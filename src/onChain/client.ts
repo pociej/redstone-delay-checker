@@ -1,16 +1,17 @@
 import { createPublicClient as viemCreatePublicClient, http } from "viem";
 import { CHAINS } from "./constants";
-import type { Chain } from "viem";
+import * as chains from "viem/chains";
 let _clients = {};
 
-function createPublicClient(chain: Chain) {
-  if (!_clients[chain.name]) {
-    _clients[chain.name] = viemCreatePublicClient({
+function createPublicClient(chainName: keyof typeof CHAINS) {
+  const chain = chains[chainName];
+  if (!_clients[chainName]) {
+    _clients[chainName] = viemCreatePublicClient({
       chain,
-      transport: http(CHAINS[chain.name].rpcUrl),
+      transport: http(CHAINS[chainName].rpcUrl),
     });
   }
-  return _clients[chain.name];
+  return _clients[chainName];
 }
 
 export { createPublicClient };
