@@ -1,7 +1,9 @@
 export const ESTIMATED_SECONDS_PER_BLOCK = 12n;
 export const CHUNK_SIZE = 1000n;
 
-export const CHAINS = {
+import type { ChainSettings, ChainId } from "./types";
+
+export const CHAINS: Record<ChainId, ChainSettings> = {
   mainnet: {
     rpcUrl: "https://ethereum-rpc.publicnode.com",
     contractAddress: "0xd72a6BA4a87DDB33e801b3f1c7750b2d0911fC6C",

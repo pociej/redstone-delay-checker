@@ -20,12 +20,12 @@ const onChainFeed = await indexOnChainData({
   chainName: chain as keyof typeof CHAINS,
 });
 
-const offChainFeed = await parseOffChainData(onChainFeed, {
-  startTime: start.valueOf(),
-  endTime: end.valueOf(),
-});
+// const offChainFeed = await parseOffChainData(onChainFeed, {
+//   startTime: start.valueOf(),
+//   endTime: end.valueOf(),
+// });
 
-writeJsonToFile(
-  getStatistics({ onChainFeed, offChainFeed }),
-  "statistics.json"
-);
+// writeJsonToFile(
+//   getStatistics({ onChainFeed, offChainFeed }),
+//   "statistics.json"
+// );
