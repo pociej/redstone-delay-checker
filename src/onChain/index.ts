@@ -5,7 +5,7 @@ import { createPublicClient } from "./client";
 import { indexProgress } from "./progress";
 import { writeJsonToFile } from "../writeJsonToFile";
 import { processChunk } from "./processChunk";
-import { mergeChunksData } from "./parseChunksData";
+import { mergeChunksData } from "./mergeChunksData";
 import { getChunkRanges } from "./getChunkRanges";
 import { CHAINS } from "./constants";
 import { logIndexingStart, logIndexingSummary } from "./logger";

@@ -28,7 +28,7 @@ function comparePricesDeviation(
   currentFeedValues: Record<string, number>,
   timestamp: number
 ) {
-  const triggers: Record<string, boolean> = {};
+  const triggers: string[] = [];
 
   Object.keys(currentFeedValues).forEach((key) => {
     const previousValue = previousFeedValues[key];
@@ -37,18 +37,11 @@ function comparePricesDeviation(
     const deviation =
       Math.abs((currentValue - previousValue) / previousValue) * 100;
     if (deviation > getDeviationPercentage(key)) {
-      triggers[key] = true;
+      triggers.push(key);
     }
   });
 
   return triggers;
-}
-
-function getMedianPrices(data: DataFeed) {
-  const values = data
-    .map((item) => item.dataPoints.map((dp) => dp.value))
-    .flat();
-  return getMedian(values);
 }
 
 export {
@@ -56,5 +49,4 @@ export {
   getDeviationPercentage,
   calculateDeviationPercentage,
   comparePricesDeviation,
-  getMedianPrices,
 };

@@ -4,7 +4,7 @@ import chalk from "chalk";
 export const logger = {
   info: (...infoArgs: any[]) => {
     if (verbose) {
-      console.log(chalk.blue(...infoArgs));
+      console.log(chalk.green(...infoArgs));
     }
   },
   error: (...errorArgs: any[]) => {
@@ -12,7 +12,7 @@ export const logger = {
   },
   debug: (...debugArgs: any[]) => {
     if (verbose) {
-      console.log(chalk.green(...debugArgs));
+      console.log(chalk.blue(...debugArgs));
     }
   },
   warn: (...warnArgs: any[]) => {

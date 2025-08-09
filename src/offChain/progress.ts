@@ -4,10 +4,10 @@ import colors from "ansi-colors";
 const progress = new cliProgress.SingleBar(
   {
     format:
-      "Getting data |" +
+      colors.blue("Getting data |") +
       colors.blue("{bar}") +
-      "| {percentage}% " +
-      "({value}/{total})",
+      colors.blue("| {percentage}% ") +
+      colors.blue("({value}/{total})"),
     barCompleteChar: "\u2588",
     barIncompleteChar: "\u2591",
     hideCursor: true,

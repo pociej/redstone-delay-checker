@@ -1,4 +1,4 @@
-import type { ValueUpdateData } from ".";
+import type { ValueUpdateData } from "./types";
 
 type FeedState = {
   currentEvent: (ValueUpdateData & { index: number }) | null;

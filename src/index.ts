@@ -2,7 +2,7 @@ import { indexOnChainData } from "./onChain";
 import { chain, start_offset, allEvents } from "./parseArgs";
 import { CHAINS } from "./onChain/constants";
 import { getIndexingStartBlock } from "./onChain/indexingStrategy";
-import { parseOffChainData } from "./offChain";
+import { getTriggersFromOffchainApi } from "./offChain";
 import { getStatistics } from "./process.statistics";
 import { writeJsonToFile } from "./writeJsonToFile";
 import { start, end } from "./dates";
@@ -12,20 +12,26 @@ const startBlockNumber = await getIndexingStartBlock({
   useAllEvents: allEvents,
   offsetHours: start_offset,
 });
-// index on chain data for longer period to have as many "currentPrices" as possible
-// on start processing offchain data
 
-const onChainFeed = await indexOnChainData({
+// NOTE : this could be otimised by taking onchain and offchain data in parallel
+// and then process them together when ready however we still get offchain sequentially
+// due to server fragility so its not a priority for now
+
+// index onchain data
+
+const onChainEvents = await indexOnChainData({
   startBlockNumber,
   chainName: chain as keyof typeof CHAINS,
 });
 
-// const offChainFeed = await parseOffChainData(onChainFeed, {
-//   startTime: start.valueOf(),
-//   endTime: end.valueOf(),
-// });
+// get offchain data
 
-// writeJsonToFile(
-//   getStatistics({ onChainFeed, offChainFeed }),
-//   "statistics.json"
-// );
+const offChainTriggers = await getTriggersFromOffchainApi(onChainEvents, {
+  startTime: start.valueOf(),
+  endTime: end.valueOf(),
+});
+
+writeJsonToFile(
+  getStatistics({ onChainEvents, offChainTriggers }),
+  "statistics.json"
+);

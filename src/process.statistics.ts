@@ -91,11 +91,11 @@ const countEventsPerFeed = (onChainFeed: OnChainFeed) => {
 };
 
 export const getStatistics = ({
-  onChainFeed,
-  offChainFeed,
+  onChainEvents,
+  offChainTriggers,
 }: {
-  onChainFeed: OnChainFeed;
-  offChainFeed: OffChainFeed;
+  onChainEvents: OnChainFeed;
+  offChainTriggers: OffChainFeed;
 }) => {
   return {
     from: start.format("YYYY-MM-DD HH:mm:ss"),
@@ -103,13 +103,13 @@ export const getStatistics = ({
     delayStatistics: {
       onePerOnChainEvent: getDelayStatistics({
         delayMode: DelayMode.OnePerOnChainEvent,
-        triggers: offChainFeed,
+        triggers: offChainTriggers,
       }),
       all: getDelayStatistics({
         delayMode: DelayMode.All,
-        triggers: offChainFeed,
+        triggers: offChainTriggers,
       }),
     },
-    updatesPerFeed: countEventsPerFeed(onChainFeed),
+    updatesPerFeed: countEventsPerFeed(onChainEvents),
   };
 };

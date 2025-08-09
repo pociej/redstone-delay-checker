@@ -11,3 +11,5 @@ export type Trigger = {
 
 export type OnChainFeed = Record<string, ValueUpdateData[]>;
 export type OffChainFeed = Record<string, Trigger[]>;
+
+export type DataFeedId = string;
