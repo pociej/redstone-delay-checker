@@ -61,7 +61,7 @@ export async function processChunk({
     return chunkMap;
   })()
     .catch((error) => {
-      console.error("Error processing chunk:", error);
+      logger.error("Error processing chunk:", error);
       onError(error);
       return {};
     })

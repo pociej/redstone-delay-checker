@@ -18,7 +18,6 @@ export const getDelayStatistics = ({
   switch (delayMode) {
     case DelayMode.OnePerOnChainEvent:
       const filteredTriggers = filterTriggers(triggers);
-      console.log("filteredTriggers", filteredTriggers);
       return calcDelayStatistics(filteredTriggers);
     case DelayMode.All:
       return calcDelayStatistics(triggers);

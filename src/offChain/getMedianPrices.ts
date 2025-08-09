@@ -22,7 +22,7 @@ export function getMedianPrices(dataItem: DataFeed, supportedFeeds: string[]) {
     if (validationResult.success) {
       medianPrices[key] = getMedianPrice(validationResult.data);
     } else {
-      console.log(
+      logger.error(
         `Error validating data for key ${key}:`,
         validationResult.error
       );
