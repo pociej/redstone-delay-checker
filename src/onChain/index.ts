@@ -34,7 +34,7 @@ async function getEventsInChunks({
 
     indexProgress.start(Number(chunkRanges.length), 0);
 
-    let processingStats = {
+    const processingStats = {
       completed: 0,
       total: chunkRanges.length,
       failed: 0,

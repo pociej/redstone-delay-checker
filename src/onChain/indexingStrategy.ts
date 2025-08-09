@@ -36,7 +36,7 @@ export async function getIndexingStartBlock({
         config.INDEXING_OFFSET_MULTIPLIER * offsetHours
       );
 
-      let { number: startBlockNumber } = await getStartBlock({
+      const { number: startBlockNumber } = await getStartBlock({
         latestBlockNumber,
         estimatedBlocksInOffset,
         timestamp: start.toDate().getTime(),

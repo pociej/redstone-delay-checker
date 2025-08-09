@@ -3,7 +3,7 @@ import { CHAINS } from "./constants";
 import * as chains from "viem/chains";
 import { config } from "../config";
 
-let _clients = {};
+const _clients = {};
 
 function createPublicClient(chainName: keyof typeof CHAINS) {
   const chain = chains[chainName];

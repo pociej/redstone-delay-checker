@@ -22,7 +22,7 @@ export async function fetchOffchainDataAtTimestamp(timestamp: number) {
         attempts++;
         continue;
       }
-    } catch (error) {
+    } catch {
       logger.error(`Failed to fetch data for timestamp ${timestamp}`);
       attempts++;
     }

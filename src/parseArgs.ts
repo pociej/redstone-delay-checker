@@ -1,8 +1,6 @@
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { CHAINS } from "./onChain/constants";
-import * as chains from "viem/chains";
-const ALL_DATA_FEEDS = "all";
 
 const argv = await yargs(hideBin(process.argv))
   .option("datafeeds", {

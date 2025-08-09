@@ -3,7 +3,7 @@ import * as path from "path";
 import { logger } from "./logger";
 
 export async function writeJsonToFile(
-  data: any,
+  data: unknown,
   filename: string = "data.json"
 ): Promise<string> {
   try {

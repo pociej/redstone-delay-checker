@@ -15,13 +15,16 @@ export const getDelayStatistics = ({
   delayMode: DelayMode;
   triggers: OffChainFeed;
 }) => {
+  let result;
   switch (delayMode) {
     case DelayMode.OnePerOnChainEvent:
-      const filteredTriggers = filterTriggers(triggers);
-      return calcDelayStatistics(filteredTriggers);
+      result = calcDelayStatistics(filterTriggers(triggers));
+      break;
     case DelayMode.All:
-      return calcDelayStatistics(triggers);
+      result = calcDelayStatistics(triggers);
+      break;
   }
+  return result;
 };
 
 const calcDelayStatistics = (triggers: OffChainFeed) => {

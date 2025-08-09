@@ -1,5 +1,4 @@
 import { deviationPercentage } from "../deviationPercentage";
-import type { DataFeed } from "./types";
 
 const getMedian = (values: number[]) => {
   const sortedValues = [...values].sort((a, b) => a - b);
@@ -25,8 +24,7 @@ function calculateDeviationPercentage(
 
 function comparePricesDeviation(
   previousFeedValues: Record<string, number>,
-  currentFeedValues: Record<string, number>,
-  timestamp: number
+  currentFeedValues: Record<string, number>
 ) {
   const triggers: string[] = [];
 
