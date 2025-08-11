@@ -4,7 +4,7 @@ import colors from "ansi-colors";
 const progress = new cliProgress.SingleBar(
   {
     format:
-      colors.blue("Getting data |") +
+      colors.blue("Getting offchain data |") +
       colors.blue("{bar}") +
       colors.blue("| {percentage}% ") +
       colors.blue("({value}/{total})"),
