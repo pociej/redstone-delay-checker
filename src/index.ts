@@ -6,6 +6,7 @@ import { getTriggersFromOffchainApi } from "./offChain";
 import { getStatistics } from "./process.statistics";
 import { writeJsonToFile } from "./writeJsonToFile";
 import { start, end } from "./dates";
+import { outputConfig } from "./env";
 
 const startBlockNumber = await getIndexingStartBlock({
   chainName: chain as keyof typeof CHAINS,
@@ -33,5 +34,5 @@ const offChainTriggers = await getTriggersFromOffchainApi(onChainEvents, {
 
 writeJsonToFile(
   getStatistics({ onChainEvents, offChainTriggers }),
-  "statistics.json"
+  outputConfig.statisticsFilename
 );

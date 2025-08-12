@@ -1,6 +1,7 @@
 import type { DataFeed } from "./types";
 import { dataFeedSchema } from "./types";
 import { getMedian } from "./helpers";
+import { logger } from "../logger";
 
 function getMedianPrice(data: DataFeed) {
   const values = data

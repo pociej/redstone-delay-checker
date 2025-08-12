@@ -15,7 +15,8 @@ import {
 } from "./loggers";
 import dayjs from "dayjs";
 import { logger } from "../logger";
-import { BASE_URL } from "./constants";
+import { outputConfig } from "../env";
+import { apiConfig } from "../env";
 
 export async function getTriggersFromOffchainApi(
   onChainFeed: Record<string, ValueUpdateData[]>,
@@ -74,7 +75,7 @@ export async function getTriggersFromOffchainApi(
 
   // write triggers to file
 
-  await writeJsonToFile(allTriggers, "offChainData.json");
+  await writeJsonToFile(allTriggers, outputConfig.offchainDataFilename);
 
   return allTriggers;
 }
@@ -82,7 +83,7 @@ export async function getTriggersFromOffchainApi(
 const handleApiError = () => {
   logger.error("=============================================");
   logger.error("Failed to fetch data from offchain api");
-  logger.error(`Please check if the server at ${BASE_URL} is running`);
+  logger.error(`Please check if the server at ${apiConfig.baseUrl} is running`);
   logger.error("=============================================");
   process.exit(1);
 };

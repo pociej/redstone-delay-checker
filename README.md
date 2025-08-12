@@ -12,6 +12,10 @@ offchain data calls are done sequentially to avoid overloading the server which 
 ```bash
 # Install dependencies
 pnpm install
+
+# Copy environment configuration (optional)
+cp .env.example .env
+# Edit .env file with your custom settings if needed
 ```
 
 ## Usage
@@ -22,17 +26,49 @@ Run the development server:
 pnpm dev
 ```
 
+## Configuration
+
+### Environment Variables
+
+Copy `.env.example` to `.env` and customize as needed:
+
+```bash
+cp .env.example .env
+```
+
+#### RPC Configuration
+
+- `ETHEREUM_RPC_URL`: Ethereum RPC endpoint (default: https://ethereum-rpc.publicnode.com)
+- `BSC_RPC_URL`: BSC RPC endpoint (default: https://bsc-rpc.publicnode.com)
+- `RPC_RETRY_COUNT`: Number of retry attempts for failed RPC calls (default: 3)
+
+#### API Configuration
+
+- `REDSTONE_API_BASE_URL`: Redstone off-chain API URL
+- `API_RETRY_COUNT`: Number of retry attempts for failed API calls (default: 3)
+
+#### Processing Configuration
+
+- `INDEXING_OFFSET_MULTIPLIER`: buffer multiplier for block estimation (default: 2) (TODO: consider if its really needed)
+
+#### Output Configuration
+
+- `RESULTS_DIR`: Output directory name (default: results)
+- `LOGS_PER_FEED_FILENAME`: On-chain events filename (default: logsPerFeed.json)
+- `OFFCHAIN_DATA_FILENAME`: Off-chain data filename (default: offChainData.json)
+- `STATISTICS_FILENAME`: Statistics filename (default: statistics.json)
+
 ### Output
 
-Script creates `results` directory and stores following files:
+Script creates `RESULTS_DIR` directory and stores following files:
 
-- `logsPerFeed.json`: On-chain events logs per feed
-- `offChainData.json`: Off-chain data per feed representing all the triggers of onchain data feed changes (changeTimestamp) and onchain appearance block timestamp (propagationTimestamp)
-- `statistics.json`: Statistics per feed
+- `LOGS_PER_FEED_FILENAME`: On-chain events logs per feed
+- `OFFCHAIN_DATA_FILENAME`: Off-chain data per feed representing all the triggers of onchain data feed changes (changeTimestamp) and onchain appearance block timestamp (propagationTimestamp)
+- `STATISTICS_FILENAME`: Statistics per feed
 
 ### Command Line Options
 
-- `--datafeeds, -d`: List of datafeeds to monitor (default: all) (TODO : consider if its realy needed)
+- `--datafeeds, -d`: List of datafeeds to monitor (default: all) (its not working yet TODO : consider if its realy needed)
 - `--verbose, -v`: Enable verbose output (default: false)
 - `--start_offset, -s`: Start offset in hours (default: 168 hours / 7 days)
 - `--chain, -c`: Chain to monitor (default: mainnet, options: mainnet, bsc)

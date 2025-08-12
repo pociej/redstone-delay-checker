@@ -1,7 +1,7 @@
 import { createPublicClient as viemCreatePublicClient, http } from "viem";
 import { CHAINS } from "./constants";
 import * as chains from "viem/chains";
-import { config } from "../config";
+import { rpcConfig } from "../env";
 
 const _clients = {};
 
@@ -11,7 +11,7 @@ function createPublicClient(chainName: keyof typeof CHAINS) {
     _clients[chainName] = viemCreatePublicClient({
       chain,
       transport: http(CHAINS[chainName].rpcUrl, {
-        retryCount: config.RETRY_COUNT,
+        retryCount: rpcConfig.retryCount,
       }),
     });
   }

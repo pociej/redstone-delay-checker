@@ -1,6 +1,9 @@
 import type { OffChainFeed, OnChainFeed } from "./types";
 import { start, end } from "./dates";
 
+// NOTE : it wasunclear from the task description if we should count all triggers for the same feed or only the first one
+// thats why we have two modes
+
 enum DelayMode {
   // if there are many offchain triggers for the same onchain event, we count only very first one
   OnePerOnChainEvent,

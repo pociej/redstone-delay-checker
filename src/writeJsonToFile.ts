@@ -1,13 +1,14 @@
 import * as fs from "fs";
 import * as path from "path";
 import { logger } from "./logger";
+import { outputConfig } from "./env";
 
 export async function writeJsonToFile(
   data: unknown,
-  filename: string = "data.json"
+  filename: string
 ): Promise<string> {
   try {
-    const resultsDir = "./results";
+    const resultsDir = `./${outputConfig.resultsDir}`;
     if (!fs.existsSync(resultsDir)) {
       fs.mkdirSync(resultsDir, { recursive: true });
       logger.info(`Created directory: ${resultsDir}`);

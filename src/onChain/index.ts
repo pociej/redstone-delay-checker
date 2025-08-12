@@ -9,6 +9,7 @@ import { mergeChunksData } from "./mergeChunksData";
 import { getChunkRanges } from "./getChunkRanges";
 import { CHAINS } from "./constants";
 import { logIndexingStart, logIndexingSummary } from "./logger";
+import { outputConfig } from "../env";
 
 async function getEventsInChunks({
   startBlockNumber,
@@ -74,7 +75,7 @@ async function getEventsInChunks({
       totalDataFeedsCount: Object.values(logsPerFeed).length,
     });
 
-    await writeJsonToFile(logsPerFeed, "logsPerFeed.json");
+    await writeJsonToFile(logsPerFeed, outputConfig.logsPerFeedFilename);
 
     return logsPerFeed;
   } catch (error) {

@@ -1,7 +1,5 @@
-import { config } from "../config";
-import { BASE_URL } from "./constants";
+import { apiConfig } from "../env";
 import { logger } from "../logger";
-
 export class ApiFetchError extends Error {
   constructor() {
     super();
@@ -14,9 +12,9 @@ export async function fetchOffchainDataAtTimestamp(timestamp: number) {
   let response: Response | null = null;
   // maybe some fancier retry strategy could be useful in future
 
-  while (attempts < config.RETRY_COUNT && !response?.ok) {
+  while (attempts < apiConfig.retryCount && !response?.ok) {
     try {
-      response = await fetch(`${BASE_URL}/${timestamp}`);
+      response = await fetch(`${apiConfig.baseUrl}/${timestamp}`);
       if (!response.ok) {
         logger.error(`Failed to fetch data for timestamp ${timestamp}`);
         attempts++;

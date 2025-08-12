@@ -4,7 +4,7 @@ import { getStartBlock } from "./getStartBlock";
 import { createPublicClient } from "./client";
 import { estimateBlocksInOffset } from "./estimateBlocksInOffset";
 import { start } from "../dates";
-import { config } from "../config";
+import { processingConfig } from "../env";
 
 /*
   Generally to have guaranteed current onChain proces we need to index data 
@@ -33,7 +33,7 @@ export async function getIndexingStartBlock({
       const client = createPublicClient(chainName);
       const latestBlockNumber = await client.getBlockNumber();
       const estimatedBlocksInOffset = estimateBlocksInOffset(
-        config.INDEXING_OFFSET_MULTIPLIER * offsetHours
+        processingConfig.indexingOffsetMultiplier * offsetHours
       );
 
       const { number: startBlockNumber } = await getStartBlock({
