@@ -35,7 +35,8 @@ export const processDataItem = ({
 
   const triggers = comparePricesDeviation(
     onChainFeedManager.getCurrentPrices(),
-    medianPrices
+    medianPrices,
+    timestamp
   );
 
   // pair trigger with next event timestamp for further stats calculation

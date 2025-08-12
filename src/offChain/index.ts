@@ -51,7 +51,7 @@ export async function getTriggersFromOffchainApi(
       }
     );
 
-    progress.update(i);
+    progress.update(i + 1);
 
     if (dataItem) {
       perTimestampTriggers.push(

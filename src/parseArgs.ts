@@ -37,11 +37,18 @@ const argv = await yargs(hideBin(process.argv))
   .check((argv) => {
     if (!CHAINS[argv.chain]) {
       throw new Error(
-        "Only " + Object.keys(CHAINS).join(", ") + " are supported"
+        "Wrong chain. Only " + Object.keys(CHAINS).join(", ") + " are supported"
       );
     }
     return argv;
   })
   .help().argv;
 
-export const { datafeeds, verbose, start_offset, chain, allEvents } = argv;
+//TODO connect zod to avoid type assertions
+export const { datafeeds, verbose, start_offset, chain, allEvents } = argv as {
+  chain: "mainnet" | "bsc";
+  datafeeds: string[];
+  verbose: boolean;
+  start_offset: number;
+  allEvents: boolean;
+};

@@ -8,6 +8,7 @@ export type ChainSettings = {
   rpcUrl: string;
   contractAddress: `0x${string}`;
   contractCreationBlockNumber: bigint;
+  manifestPath: string;
 };
 
 export enum ChainId {

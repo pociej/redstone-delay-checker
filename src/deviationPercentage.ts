@@ -1,18 +1,35 @@
-import manifest from "./manifest.json" assert { type: "json" };
+import manifestMainnet from "./manifest.mainnet.json" assert { type: "json" };
+import manifestBsc from "./manifest.bsc.json" assert { type: "json" };
 
-const defaultDeviationPercentage = manifest.updateTriggers.deviationPercentage;
+const defaultDeviationPercentage = {
+  mainnet: manifestMainnet.updateTriggers.deviationPercentage,
+  bsc: manifestBsc.updateTriggers.deviationPercentage,
+};
 
-const baseDeviations = Object.keys(manifest.priceFeeds).reduce((acc, key) => {
-  acc[key] =
-    manifest.priceFeeds?.[key]?.updateTriggersOverrides?.deviationPercentage ||
-    defaultDeviationPercentage;
-  return acc;
-}, {} as Record<string, number>);
+type Manifest = {
+  updateTriggers: { deviationPercentage: number };
+  priceFeeds: Record<
+    string,
+    { updateTriggersOverrides?: { deviationPercentage?: number } }
+  >;
+};
+const getBaseDeviations = (manifest: Manifest) => {
+  return Object.keys(manifest.priceFeeds).reduce((acc, key) => {
+    acc[key] =
+      manifest.priceFeeds?.[key]?.updateTriggersOverrides
+        ?.deviationPercentage || manifest.updateTriggers.deviationPercentage;
+    return acc;
+  }, {} as Record<string, number>);
+};
 
-export const deviationPercentage = new Proxy(baseDeviations, {
-  get: (target, prop) => {
-    return Reflect.has(target, prop)
-      ? Reflect.get(target, prop)
-      : defaultDeviationPercentage;
-  },
-});
+const baseDeviations = {
+  mainnet: getBaseDeviations(manifestMainnet as Manifest),
+  bsc: getBaseDeviations(manifestBsc as Manifest),
+};
+
+export function getDeviationPercentage(
+  chain: "mainnet" | "bsc",
+  dataFeedId: string
+) {
+  return baseDeviations[chain][dataFeedId] || defaultDeviationPercentage[chain];
+}

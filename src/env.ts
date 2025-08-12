@@ -24,7 +24,7 @@ const envSchema = z.object({
   API_RETRY_COUNT: z.coerce.number().int().default(3),
 
   // Processing Configuration
-  INDEXING_OFFSET_MULTIPLIER: z.coerce.number().default(2),
+  INDEXING_OFFSET_MULTIPLIER: z.coerce.number().default(40),
 
   // Output Configuration
   RESULTS_DIR: z.string().min(1).default("results"),

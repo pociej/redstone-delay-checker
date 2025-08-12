@@ -62,7 +62,9 @@ cp .env.example .env
 
 Script creates `RESULTS_DIR` directory and stores following files:
 
-- `LOGS_PER_FEED_FILENAME`: On-chain events logs per feed
+- `LOGS_PER_FEED_FILENAME`: On-chain events logs per feed - cotaining all the events from indexed blocks, not only from
+  the period of interest
+
 - `OFFCHAIN_DATA_FILENAME`: Off-chain data per feed representing all the triggers of onchain data feed changes (changeTimestamp) and onchain appearance block timestamp (propagationTimestamp)
 - `STATISTICS_FILENAME`: Statistics per feed
 
