@@ -33,13 +33,20 @@ export async function getIndexingStartBlock({
       const client = createPublicClient(chainName);
       const latestBlockNumber = await client.getBlockNumber();
       const estimatedBlocksInOffset = estimateBlocksInOffset(
-        processingConfig.indexingOffsetMultiplier * offsetHours
+        processingConfig.indexingOffsetMultiplier * offsetHours,
+        chainName
       );
 
       const { number: startBlockNumber } = await getStartBlock({
         latestBlockNumber,
-        estimatedBlocksInOffset,
-        timestamp: start.toDate().getTime(),
+        estimatedBlocksInOffset: BigInt(estimatedBlocksInOffset),
+        expectedStartTime:
+          start.toDate().getTime() -
+          (processingConfig.indexingOffsetMultiplier - 1) *
+            offsetHours *
+            60 *
+            60 *
+            1000,
         chainName,
       });
       return startBlockNumber;

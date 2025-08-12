@@ -1,8 +1,11 @@
-import { ESTIMATED_SECONDS_PER_BLOCK } from "./constants";
+import { CHAINS } from "./constants";
 
-function estimateBlocksInOffset(offsetHours: number) {
-  const secondsInOffset = BigInt(offsetHours) * 60n * 60n;
-  return secondsInOffset / ESTIMATED_SECONDS_PER_BLOCK;
+function estimateBlocksInOffset(
+  offsetHours: number,
+  chain: keyof typeof CHAINS
+) {
+  const secondsInOffset = offsetHours * 60 * 60;
+  return secondsInOffset / CHAINS[chain].estimatedSecondsPerBlock;
 }
 
 export { estimateBlocksInOffset };

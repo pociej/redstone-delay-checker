@@ -9,6 +9,7 @@ export type ChainSettings = {
   contractAddress: `0x${string}`;
   contractCreationBlockNumber: bigint;
   manifestPath: string;
+  estimatedSecondsPerBlock: number;
 };
 
 export enum ChainId {

@@ -4,22 +4,20 @@ import { CHAINS } from "./constants";
 export async function getStartBlock({
   latestBlockNumber,
   estimatedBlocksInOffset,
-  timestamp,
+  expectedStartTime,
   chainName,
 }: {
   latestBlockNumber: bigint;
   estimatedBlocksInOffset: bigint;
-  timestamp: number;
+  expectedStartTime: number;
   chainName: keyof typeof CHAINS;
 }) {
   const client = createPublicClient(chainName);
   let startBlockNumber = latestBlockNumber - estimatedBlocksInOffset;
   let startBlock = await client.getBlock({ blockNumber: startBlockNumber });
-
-  while (startBlock.timestamp > timestamp) {
+  while (startBlock.timestamp * 1000n > expectedStartTime) {
     startBlockNumber--;
     startBlock = await client.getBlock({ blockNumber: startBlockNumber });
   }
-
   return startBlock;
 }
