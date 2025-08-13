@@ -1,6 +1,7 @@
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { CHAINS } from "./onChain/constants";
+import fs from "fs";
 
 const argv = await yargs(hideBin(process.argv))
   .option("datafeeds", {
@@ -28,11 +29,28 @@ const argv = await yargs(hideBin(process.argv))
     type: "string",
     default: "mainnet",
   })
+  .option("manifest", {
+    alias: "m",
+    describe: "Manifest file",
+    type: "string",
+  })
   .option("allEvents", {
     alias: "a",
     describe: "Index all events from contract creation block",
     type: "boolean",
     default: false,
+  })
+  // Ensure manifest defaults to manifest.[chain].json when not provided
+  .middleware((argv) => {
+    if (!argv.manifest && typeof argv.chain === "string") {
+      argv.manifest = `./manifest.${argv.chain}.json`;
+    }
+  }, true)
+  .check((argv) => {
+    if (!fs.existsSync(argv.manifest)) {
+      throw new Error(`Manifest file not found: ${argv.manifest}`);
+    }
+    return argv;
   })
   .check((argv) => {
     if (!CHAINS[argv.chain]) {
@@ -45,10 +63,12 @@ const argv = await yargs(hideBin(process.argv))
   .help().argv;
 
 //TODO connect zod to avoid type assertions
-export const { datafeeds, verbose, start_offset, chain, allEvents } = argv as {
-  chain: "mainnet" | "bsc";
-  datafeeds: string[];
-  verbose: boolean;
-  start_offset: number;
-  allEvents: boolean;
-};
+export const { datafeeds, verbose, start_offset, chain, allEvents, manifest } =
+  argv as {
+    chain: "mainnet" | "bsc";
+    datafeeds: string[];
+    verbose: boolean;
+    start_offset: number;
+    allEvents: boolean;
+    manifest: string;
+  };
