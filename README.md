@@ -75,6 +75,7 @@ Script creates `RESULTS_DIR` directory and stores following files:
 - `--start_offset, -s`: Start offset in hours (default: 168 hours / 7 days)
 - `--chain, -c`: Chain to monitor (default: mainnet, options: mainnet, bsc)
 - `--allEvents, -a`: Index all events from contract creation block (default: false) look at indexingStrategy.ts for more details
+- `--manifest_path, -m`: Manifest file (default: manifest.[chain].json)
 
 Example:
 

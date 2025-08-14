@@ -1,5 +1,4 @@
-import { getDeviationPercentage } from "../deviationPercentage";
-import { chain } from "../parseArgs";
+import { getDeviationPercentage } from "../triggerRules";
 import { logger } from "../logger";
 
 const getMedian = (values: number[]) => {
@@ -38,10 +37,9 @@ function comparePricesDeviation(
     if (deviation === Infinity) {
       logger.info("Skipping as no current onchain price found");
     } else {
-      if (deviation > getDeviationPercentage(chain, key)) {
+      if (deviation > getDeviationPercentage(key)) {
         logger.info(
           `Trigger detected for ${key} at ${timestamp} with deviation ${deviation}. Required deviation ${getDeviationPercentage(
-            chain,
             key
           )}`
         );
@@ -58,4 +56,8 @@ export {
   getDeviationPercentage,
   calculateDeviationPercentage,
   comparePricesDeviation,
+};
+
+export const onlyUnique = <T>(value: T, index: number, self: T[]) => {
+  return self.indexOf(value) === index;
 };

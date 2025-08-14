@@ -1,9 +1,8 @@
 import type { DataFeed } from "./types";
 import type { ValueUpdateData } from "../onChain/types";
 import { CurrentOnChainPricesManager } from "../onChain/currentOnChainPrice";
-import { comparePricesDeviation } from "./helpers";
-import { getMedianPrices } from "./getMedianPrices";
 import { withNextEvent } from "./withNextEvent";
+import { getTriggers } from "./getTriggers";
 
 /**
  * Process data received from offchain API for given timestamp
@@ -27,19 +26,13 @@ export const processDataItem = ({
 }) => {
   const onChainFeedManager = new CurrentOnChainPricesManager(onChainFeed);
 
-  onChainFeedManager.setTimestamp(timestamp);
-
-  const medianPrices = getMedianPrices(dataItem, supportedFeeds);
-
-  // Compare prices deviation to detect triggers
-
-  const triggers = comparePricesDeviation(
-    onChainFeedManager.getCurrentPrices(),
-    medianPrices,
-    timestamp
-  );
-
   // pair trigger with next event timestamp for further stats calculation
 
+  const triggers = getTriggers(
+    dataItem,
+    onChainFeedManager,
+    timestamp,
+    supportedFeeds
+  );
   return withNextEvent(triggers, onChainFeedManager, timestamp);
 };

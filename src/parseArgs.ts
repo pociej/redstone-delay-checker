@@ -2,6 +2,7 @@ import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { CHAINS } from "./onChain/constants";
 import fs from "fs";
+import path from "path";
 
 const argv = await yargs(hideBin(process.argv))
   .option("datafeeds", {
@@ -29,7 +30,7 @@ const argv = await yargs(hideBin(process.argv))
     type: "string",
     default: "mainnet",
   })
-  .option("manifest", {
+  .option("manifest_path", {
     alias: "m",
     describe: "Manifest file",
     type: "string",
@@ -42,13 +43,18 @@ const argv = await yargs(hideBin(process.argv))
   })
   // Ensure manifest defaults to manifest.[chain].json when not provided
   .middleware((argv) => {
-    if (!argv.manifest && typeof argv.chain === "string") {
-      argv.manifest = `./manifest.${argv.chain}.json`;
+    if (!argv.manifest_path && typeof argv.chain === "string") {
+      argv.manifest_path = `./src/manifest.${argv.chain}.json`;
+    }
+    if (argv.manifest_path) {
+      argv.manifest_path = path.isAbsolute(argv.manifest_path)
+        ? argv.manifest_path
+        : path.resolve(process.cwd(), argv.manifest_path);
     }
   }, true)
   .check((argv) => {
-    if (!fs.existsSync(argv.manifest)) {
-      throw new Error(`Manifest file not found: ${argv.manifest}`);
+    if (!fs.existsSync(argv.manifest_path)) {
+      throw new Error(`Manifest file not found: ${argv.manifest_path}`);
     }
     return argv;
   })
@@ -63,12 +69,18 @@ const argv = await yargs(hideBin(process.argv))
   .help().argv;
 
 //TODO connect zod to avoid type assertions
-export const { datafeeds, verbose, start_offset, chain, allEvents, manifest } =
-  argv as {
-    chain: "mainnet" | "bsc";
-    datafeeds: string[];
-    verbose: boolean;
-    start_offset: number;
-    allEvents: boolean;
-    manifest: string;
-  };
+export const {
+  datafeeds,
+  verbose,
+  start_offset,
+  chain,
+  allEvents,
+  manifest_path,
+} = argv as {
+  chain: "mainnet" | "bsc";
+  datafeeds: string[];
+  verbose: boolean;
+  start_offset: number;
+  allEvents: boolean;
+  manifest_path: string;
+};

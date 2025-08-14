@@ -1,5 +1,7 @@
 import type { ValueUpdateData } from "./types";
 
+export const NO_VALUE = Symbol("no value");
+
 type FeedState = {
   currentEvent: (ValueUpdateData & { index: number }) | null;
   nextEvent: (ValueUpdateData & { index: number }) | null;
@@ -45,6 +47,10 @@ export class CurrentOnChainPricesManager {
     return this.feedStates[feedId]?.currentEvent?.value || 0;
   }
 
+  getLatestEventTimestamp(feedId: string): number {
+    return this.feedStates[feedId]?.currentEvent?.blockTimestamp || 0;
+  }
+
   getNextPrice(feedId: string): number {
     return this.feedStates[feedId]?.nextEvent?.value || 0;
   }
@@ -52,11 +58,20 @@ export class CurrentOnChainPricesManager {
     return this.feedStates[feedId]?.nextEvent?.blockTimestamp || 0;
   }
 
-  getCurrentPrices(): Record<string, number> {
+  getCurrentPrices(): Record<string, number | typeof NO_VALUE> {
     return Object.fromEntries(
       Object.entries(this.feedStates).map(([feedId, state]) => [
         feedId,
-        state.currentEvent?.value || 0,
+        state.currentEvent?.value || NO_VALUE,
+      ])
+    );
+  }
+
+  getLatestEventTimestamps(): Record<string, number | typeof NO_VALUE> {
+    return Object.fromEntries(
+      Object.entries(this.feedStates).map(([feedId, state]) => [
+        feedId,
+        state.currentEvent?.blockTimestamp * 1000 || NO_VALUE,
       ])
     );
   }
